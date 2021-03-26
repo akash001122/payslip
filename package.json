@@ -1,0 +1,32 @@
+{
+  "name": "payslip",
+  "version": "1.0.0",
+  "description": "Payslip Generation",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@antoniogiordano/hacli": "^1.0.2",
+    "@hapi/boom": "^9.1.2",
+    "@hapi/glue": "^8.0.0",
+    "@hapi/hapi": "^20.1.1",
+    "@hapi/inert": "^6.0.3",
+    "@hapi/vision": "^6.0.1",
+    "bcrypt": "^5.0.1",
+    "hapi-auth-jwt2": "^10.2.0",
+    "hapi-swagger": "^14.1.0",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "jsreport-client": "^1.2.0",
+    "mongoose": "^5.12.1",
+    "nipo": "^0.5.0",
+    "pino-pretty": "^4.7.1",
+    "redis": "^3.0.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.7",
+    "prettier": "2.2.1"
+  }
+}
