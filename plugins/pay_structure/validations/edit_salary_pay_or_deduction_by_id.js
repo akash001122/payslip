@@ -4,7 +4,7 @@ const Joi = require('joi');
 
 module.exports = {
   params: Joi.object({
-      salary_structure_id: Joi.number().required()
+      salary_structure_id: Joi.string().required()
     }),
   payload: Joi.object({
     name: Joi.string(),

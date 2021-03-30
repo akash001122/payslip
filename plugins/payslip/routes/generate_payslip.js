@@ -2,7 +2,7 @@
 
 module.exports = {
   method: 'GET',
-  path: '/api/payslip/{employeeId}',
+  path: '/api/payslip',
   options: {
     tags: ['api'],
     description: 'Generates payslip',

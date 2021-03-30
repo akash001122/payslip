@@ -11,6 +11,7 @@ module.exports = {
     department_name: Joi.string().required(),
     date_of_joining: Joi.date().required(),
     ctc: Joi.number().integer().required(),
+    slab: Joi.string().required(),
     pan_number: Joi.string().required(),
     bank_details: Joi.array().items(Joi.object({
         bank_name: Joi.string().required(),

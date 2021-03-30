@@ -6,7 +6,7 @@ const users = require('../schemas/users')
 module.exports = async (request, h) => {
     try{
         const {query} = request;
-        const user = await users.find({_id:{$in:query.userId},visibility:true});
+        const user = await users.find({_id:{$in:query.userId},visibility:true},{password:0});
         return{
             statusCode: 200,
             message: 'User details fetched',

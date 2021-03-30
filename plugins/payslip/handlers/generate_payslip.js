@@ -10,63 +10,62 @@ const employee = require('../../employee/schemas/employee');
 
 module.exports = async (request, h) => {
     try{
-        const {employeeId} = request.params;
-
-        const employeeDetails = await employee.findOne({_id: employeeId, visibility: true});
-        let slab;
-        if(employeeDetails.ctc < 250000){
-            slab = 'slab1';
-        } else if(employeeDetails.ctc < 500000){
-            slab = 'slab2';
-        } else if (employeeDetails.ctc < 1000000){
-            slab = 'slab3';
-        } else {
-            slab = 'slab4';
+        const {employeeId, month_or_year, lop} = request.query;
+        let days;
+        if(month_or_year === 'month'){
+            days = 22;
+        }else if(month_or_year === 'year'){
+            days = 22*12;
         }
-        const pay_percent_Details = await salary_structure.find({ slab: slab, type: 'pay', percentage_or_amount: 'percentage'});
-        console.log(pay_percent_Details);
-        let pay_data = pay_percent_Details.map(x => {
-            return {
-                name: x.name,
-                value: (employeeDetails.ctc*x.value)/(12*22*100),
+        const employeeDetails = await employee.findOne({_id: employeeId, visibility: true});
+        const payDetails = await salary_structure.find({ slab: employeeDetails.slab});
+        let pay_data = [];
+        let deduction_data = [];
+        let pay_count = 0;
+        let deduction_count = 0;
+        for ( const item in payDetails){
+            if(payDetails[item].percentage_or_amount === 'percentage' && payDetails[item].type === 'pay'){
+                pay_data[pay_count] = {
+                    name: payDetails[item].name,
+                    value : (employeeDetails.ctc*payDetails[item].value*days)/(12*(22-lop)*100),
+                };
+                pay_count++;
+            } else if(payDetails[item].percentage_or_amount === 'amount' && payDetails[item].type === 'pay'){
+                pay_data[pay_count] ={
+                    name: payDetails[item].name,
+                    value: payDetails[item].value,
+                } ;
+                pay_count++;
+            } else if(payDetails[item].percentage_or_amount === 'percentage' && payDetails[item].type === 'deduction'){
+                deduction_data[deduction_count] ={
+                    name : payDetails[item].name,
+                    value : (employeeDetails.ctc*payDetails[item].value*days)/(12*(22-lop)*100),
+                }
+                deduction_count++;
+            } else if(payDetails[item].percentage_or_amount === 'amount' && payDetails[item].type === 'deduction'){
+                deduction_data[deduction_count] ={
+                    name : payDetails[item].name,
+                    value : payDetails[item].value,
+                };
+                deduction_count++;
             }
-        })
-        console.log(pay_data);
+        }
 
-        const deduction_percent_Details = await salary_structure.find({ slab: slab, type: 'deduction', percentage_or_amount: 'percentage'});
-        let deduction_data = deduction_percent_Details.map(x => {
-            return {
-                name: x.name,
-                value: (employeeDetails.ctc*x.value)/(12*22*100),
-            }
-        })
-        console.log(deduction_data);
-        const pay_amount_Details = await salary_structure.find({ slab: slab, type: 'pay', percentage_or_amount: 'amount'});
-        let pay_amount = pay_amount_Details.map(x => {
-            return {
-                name: x.name,
-                value: x.value,
-            }
-        })
-        console.log('pay_amount',pay_amount);
-        pay_data = Object.assign(pay_data,pay_amount)
-        console.log('pay_data',pay_data);
-        const deduction_amount_Details = await salary_structure.find({ slab: slab, type: 'deduction', percentage_or_amount: 'amount'});
-        let deduction_amount = deduction_amount_Details.map(x => {
-            return {
-                name: x.name,
-                value: x.value,
-            }
-        })
-        console.log('test',typeof(deduction_amount));
-        deduction_data = Object.assign(deduction_data,deduction_amount)
-
-        const gross_pay = pay_data.reduce((x,y) => x.value + y.value);
-        const total_deductions = deduction_data.reduce((x,y) => x.value + y.value);
+        const gross_pay = pay_data.reduce((x,y)=> x + y.value,0);
+        const total_deductions = deduction_data.reduce((x,y)=> x + y.value,0);
         const net_pay = gross_pay - total_deductions;
-        console.log('grosspay',gross_pay);
-        console.log('totaldeductions',total_deductions);
-        console.log('netpay',net_pay);
+        const paySlip = {
+            pay_data,
+            deduction_data,
+            gross_pay,
+            total_deductions,
+            net_pay
+        }
+
+        
+        
+    
+
 
         // const res = await client.render({
         //     template: {
@@ -82,20 +81,9 @@ module.exports = async (request, h) => {
         //   const bodyBuffer = await res.body()
         //   console.log(bodyBuffer.toString())
         return{
-            statusCode: 201,
-            message: 'Employee is created',
-            data: basic_pay,
-            dearness_allowance,
-            hra,
-            conveyance,
-            other_pay_details,
-            TDS,
-            provident_fund,
-            other_deduction_details,
-            gross_pay,
-            total_deductions,
-            net_pay
-
+            statusCode: 200,
+            message: 'Employee payslip generated',
+            data: paySlip,
         }
     }catch(e){
         return Boom.badRequest(e);

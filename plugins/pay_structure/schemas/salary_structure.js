@@ -6,13 +6,12 @@ const { bold } = require('../../auth/util/config');
 
 mongoose.Promise = require('bluebird');
 const { Schema } = mongoose;
-const slabs = ['slab1','slab2','slab3','slab4'];
 const pay_or_deductions = ['pay','deduction'];
 const percentage_or_amount = ['percentage','amount'];
 const schema = new Schema(
     {
         name: { type: String, required: false },
-        slab: { type: String, enum: slabs, required: true},
+        slab: { type: String, required: true},
         type:{ type: String, enum: pay_or_deductions, required: true},
         percentage_or_amount:{ type: String, enum: percentage_or_amount, required: true},
         value: {type: Number, required: false},

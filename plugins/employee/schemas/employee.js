@@ -14,6 +14,7 @@ const schema = new Schema(
         department_name: { type: String, required: false},
         date_of_joining: { type: Date, required: true},
         ctc: { type: Number, required: true},
+        slab: { type: String, required: true},
         pan_number: { type: String, required: true},
         bank_details: [
             {
