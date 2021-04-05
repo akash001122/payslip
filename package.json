@@ -3,6 +3,17 @@
   "version": "1.0.0",
   "description": "Payslip Generation",
   "main": "index.js",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  },
   "license": "MIT",
   "dependencies": {
     "@antoniogiordano/hacli": "^1.0.2",
@@ -26,6 +37,8 @@
   "devDependencies": {
     "eslint": "^7.22.0",
     "eslint-config-google": "^0.14.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
     "nodemon": "^2.0.7",
     "prettier": "2.2.1"
   }

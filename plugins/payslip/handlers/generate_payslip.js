@@ -5,8 +5,9 @@ const client = require("jsreport-client")("http://myserver:5488")
 
 
 const Boom = require('@hapi/boom');
+const { server } = require("@hapi/hapi");
 const salary_structure = require('../../pay_structure/schemas/salary_structure');
-const employee = require('../../employee/schemas/employee');
+
 
 module.exports = async (request, h) => {
     try{
@@ -17,8 +18,8 @@ module.exports = async (request, h) => {
         }else if(month_or_year === 'year'){
             days = 22*12;
         }
-        const employeeDetails = await employee.findOne({_id: employeeId, visibility: true});
-        const payDetails = await salary_structure.find({ slab: employeeDetails.slab});
+        const employeeDetails = await server.methods.get_employee_by_id(employeeId);
+        const payDetails = await server.methods.get_pay_structure_by_slab(employeeDetails.slab);
         let pay_data = [];
         let deduction_data = [];
         let pay_count = 0;
@@ -55,6 +56,15 @@ module.exports = async (request, h) => {
         const total_deductions = deduction_data.reduce((x,y)=> x + y.value,0);
         const net_pay = gross_pay - total_deductions;
         const paySlip = {
+            employee_id: employeeDetails._id,
+            name: employeeDetails.name,
+            address: employeeDetails.address,
+            email: employeeDetails.email,
+            department: employeeDetails.department_name,
+            date_of_joining: employeeDetails.date_of_joining,
+            ctc: employeeDetails.ctc,
+            pan_number: employeeDetails.pan_number,
+            bank_details: employeeDetails.bank_details,
             pay_data,
             deduction_data,
             gross_pay,
