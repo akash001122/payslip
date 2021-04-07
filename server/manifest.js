@@ -1,5 +1,5 @@
 'use strict';
-const auth = require('../plugins/auth');
+const auth =     require('../plugins/auth');
 const users = require('../plugins/users');
 const employee = require('../plugins/employee');
 const payslip = require('../plugins/payslip');
