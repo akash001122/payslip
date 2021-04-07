@@ -16,7 +16,8 @@
   },
   "scripts": {
     "dev": "node ./server/index.js",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "prepare": "husky install"
   },
   "license": "MIT",
   "dependencies": {
