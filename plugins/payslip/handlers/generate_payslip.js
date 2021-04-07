@@ -4,7 +4,7 @@ const client = require("jsreport-client")("http://myserver:5488")
 
 
 
-const Boom = require('@hapi/boom');
+const Boom = require(  '@hapi/boom');
 const { server } = require("@hapi/hapi");
 const salary_structure = require('../../pay_structure/schemas/salary_structure');
 
