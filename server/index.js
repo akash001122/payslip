@@ -11,7 +11,7 @@ exports.deployment = async (start) => {
         await server.initialize();
         if(!start) {
             return server;
-        }
+          }
         await server.start();
         console.log(`Server running on ${server.info.uri}`);
         await mongoose.connect(process.env.MONGODB_URI, {
