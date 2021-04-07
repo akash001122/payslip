@@ -1,7 +1,7 @@
 'use strict';
 
 const   Glue = require('@hapi/glue');
-const mongoose = require('mongoose');
+const   mongoose = require('mongoose');
 const manifest = require('./manifest');
 mongoose.Promise = require('bluebird');
 
