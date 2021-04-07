@@ -2,7 +2,7 @@
 const auth =     require('../plugins/auth');
 const users = require('../plugins/users');
 const employee = require('../plugins/employee');
-const payslip = require('../plugins/payslip');
+const   payslip = require('../plugins/payslip');
 const pay_deduction = require('../plugins/pay_structure');
 const {   version } = require('../package.json');
 
