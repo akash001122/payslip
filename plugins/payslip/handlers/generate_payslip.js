@@ -1,12 +1,7 @@
 'use strict';
 
-const client = require("jsreport-client")("http://myserver:5488")
-
-
-
 const Boom = require(  '@hapi/boom');
-const { server } = require("@hapi/hapi");
-const salary_structure = require('../../pay_structure/schemas/salary_structure');
+const report = require('../../../modules/JSReport')
 
 
 module.exports = async (request, h) => {
@@ -18,8 +13,8 @@ module.exports = async (request, h) => {
         }else if(month_or_year === 'year'){
             days = 22*12;
         }
-        const employeeDetails = await server.methods.get_employee_by_id(employeeId);
-        const payDetails = await server.methods.get_pay_structure_by_slab(employeeDetails.slab);
+        const employeeDetails = await request.server.methods.get_employee_by_id(employeeId);
+        const payDetails = await request.server.methods.get_pay_structure_by_slab(employeeDetails.slab);
         let pay_data = [];
         let deduction_data = [];
         let pay_count = 0;
@@ -73,23 +68,11 @@ module.exports = async (request, h) => {
         }
 
         
-        
+        report.generate_report.add(paySlip)
     
 
 
-        // const res = await client.render({
-        //     template: {
-        //       content: 'Payslip',
-        //       recipe: 'html',
-        //       engine: 'handlebars'
-        //     },
-        //     data: { 
-        //         employeeDetails
-        //      }
-        //   })
-        
-        //   const bodyBuffer = await res.body()
-        //   console.log(bodyBuffer.toString())
+ 
         return{
             statusCode: 200,
             message: 'Employee payslip generated',

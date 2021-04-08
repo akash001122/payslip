@@ -1,0 +1,1030 @@
+2021-04-08T06:14:19.263Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-04-08T06:14:19.265Z - info: Searching for available extensions in /home/nissi/Desktop/payslip/
+2021-04-08T06:14:19.278Z - info: Extensions location cache not found, crawling directories
+2021-04-08T06:14:21.521Z - info: Found 35 extensions
+2021-04-08T06:14:22.495Z - info: Setting http-server strategy for rendering
+2021-04-08T06:14:22.784Z - info: Using extension cli@local:/home/nissi/Desktop/payslip/node_modules/jsreport-cli:2.2.5
+2021-04-08T06:14:22.799Z - info: Using extension debug@local:/home/nissi/Desktop/payslip/node_modules/jsreport-debug:2.1.3
+2021-04-08T06:14:22.807Z - info: Using extension express@local:/home/nissi/Desktop/payslip/node_modules/jsreport-express:2.8.1
+2021-04-08T06:14:23.422Z - info: Using extension freeze@local:/home/nissi/Desktop/payslip/node_modules/jsreport-freeze:2.0.0
+2021-04-08T06:14:23.429Z - info: Using extension handlebars@local:/home/nissi/Desktop/payslip/node_modules/jsreport-handlebars:2.1.0
+2021-04-08T06:14:23.459Z - info: Using extension import-export@local:/home/nissi/Desktop/payslip/node_modules/jsreport-import-export:2.1.1
+2021-04-08T06:14:23.593Z - info: Using extension jsrender@local:/home/nissi/Desktop/payslip/node_modules/jsreport-jsrender:2.1.1
+2021-04-08T06:14:23.595Z - info: Using extension tags@local:/home/nissi/Desktop/payslip/node_modules/jsreport-tags:2.5.0
+2021-04-08T06:14:23.599Z - info: Using extension templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-templates:2.4.0
+2021-04-08T06:14:23.603Z - info: Using extension authorization@local:/home/nissi/Desktop/payslip/node_modules/jsreport-authorization:2.4.0
+2021-04-08T06:14:23.608Z - info: Using extension base@local:/home/nissi/Desktop/payslip/node_modules/jsreport-base:2.0.2
+2021-04-08T06:14:23.610Z - info: Using extension browser-client@local:/home/nissi/Desktop/payslip/node_modules/jsreport-browser-client:2.2.2
+2021-04-08T06:14:23.614Z - info: Using extension child-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-child-templates:1.4.0
+2021-04-08T06:14:23.630Z - info: Using extension chrome-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-chrome-pdf:1.10.0
+2021-04-08T06:14:23.787Z - info: Using extension data@local:/home/nissi/Desktop/payslip/node_modules/jsreport-data:2.4.0
+2021-04-08T06:14:23.788Z - info: Using extension docx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-docx:2.9.0
+2021-04-08T06:14:23.794Z - info: Using extension fs-store@local:/home/nissi/Desktop/payslip/node_modules/jsreport-fs-store:2.9.1
+2021-04-08T06:14:24.479Z - info: Using extension licensing@local:/home/nissi/Desktop/payslip/node_modules/jsreport-licensing:2.2.3
+2021-04-08T06:14:24.485Z - info: Using extension pdf-utils@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pdf-utils:1.10.1
+2021-04-08T06:14:24.921Z - info: Using extension pptx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pptx:0.7.0
+2021-04-08T06:14:24.926Z - info: Using extension reports@local:/home/nissi/Desktop/payslip/node_modules/jsreport-reports:2.5.1
+2021-04-08T06:14:24.935Z - info: Using extension static-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-static-pdf:0.4.0
+2021-04-08T06:14:24.947Z - info: Using extension studio@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio:2.10.1
+2021-04-08T06:14:25.127Z - info: Using extension text@local:/home/nissi/Desktop/payslip/node_modules/jsreport-text:2.0.0
+2021-04-08T06:14:25.127Z - info: Using extension version-control@local:/home/nissi/Desktop/payslip/node_modules/jsreport-version-control:1.6.0
+2021-04-08T06:14:25.468Z - info: Using extension assets@local:/home/nissi/Desktop/payslip/node_modules/jsreport-assets:1.7.0
+2021-04-08T06:14:25.529Z - info: Using extension html-to-xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-html-to-xlsx:2.8.3
+2021-04-08T06:14:26.202Z - info: html-to-xlsx detected chrome as available html engine
+2021-04-08T06:14:26.203Z - info: Using extension scheduling@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scheduling:2.5.0
+2021-04-08T06:14:26.421Z - info: Using extension scripts@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scripts:2.6.0
+2021-04-08T06:14:26.428Z - info: Using extension studio-theme-dark@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio-theme-dark:0.3.0
+2021-04-08T06:14:26.430Z - info: Using extension xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-xlsx:2.5.0
+2021-04-08T06:14:26.874Z - info: Using extension public-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-public-templates:2.2.0
+2021-04-08T06:14:26.901Z - info: Using extension resources@local:/home/nissi/Desktop/payslip/node_modules/jsreport-resources:2.1.0
+2021-04-08T06:14:26.903Z - info: Using extension sample-template@local:/home/nissi/Desktop/payslip/node_modules/jsreport-sample-template:2.6.1
+2021-04-08T06:14:26.907Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-04-08T06:14:26.907Z - info: Using fs provider for template store.
+2021-04-08T06:14:26.917Z - info: fs store is persisting using fs
+2021-04-08T06:14:26.920Z - info: fs store is synchronizing using fs
+2021-04-08T06:14:26.928Z - info: fs store is loading data
+2021-04-08T06:14:26.963Z - info: fs store is initialized successfully
+2021-04-08T06:14:27.005Z - info: Creating default express app.
+2021-04-08T06:14:27.032Z - info: jsreport server successfully started on http port: 3004
+2021-04-08T06:14:27.032Z - info: fs store emits sockets to synchronize underlying changes with studio
+2021-04-08T06:14:27.081Z - info: Verifying license key free
+2021-04-08T06:14:27.083Z - info: Using free license
+2021-04-08T06:14:27.440Z - info: reporter initialized
+2021-04-08T06:24:10.690Z - info: Starting rendering request 1 (user: null)
+2021-04-08T06:24:10.695Z - info: Rendering template { name: paySlip, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-04-08T06:24:10.759Z - error: Rendering request 1 finished with error in 69 ms
+2021-04-08T06:24:10.760Z - error: Error when processing render request 1 Asset sampleReports.css not found in the store and also not on the disk: Unable to find or read file /home/nissi/Desktop/payslip/sampleReports.css. ENOENT: no such file or directory, open '/home/nissi/Desktop/payslip/sampleReports.css' Error: Asset sampleReports.css not found in the store and also not on the disk: Unable to find or read file /home/nissi/Desktop/payslip/sampleReports.css. ENOENT: no such file or directory, open '/home/nissi/Desktop/payslip/sampleReports.css'
+    at readAsset (/home/nissi/Desktop/payslip/node_modules/jsreport-assets/lib/assets.js:232:15)
+2021-04-08T06:24:10.761Z - error: Error during processing request at http://localhost:3004/api/report/paySlip
+2021-04-08T06:32:56.755Z - warn: Unable to get asset content  Error: Unable to find asset with id MZVLMzdAUQAtNe8n
+    at module.exports (/home/nissi/Desktop/payslip/node_modules/jsreport-core/lib/util/createError.js:11:13)
+    at Reporter.createError (/home/nissi/Desktop/payslip/node_modules/jsreport-core/lib/reporter.js:332:12)
+    at readAsset (/home/nissi/Desktop/payslip/node_modules/jsreport-assets/lib/assets.js:163:22)
+2021-04-08T06:33:02.464Z - info: Starting rendering request 2 (user: null)
+2021-04-08T06:33:02.465Z - info: Rendering template { name: paySlip, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-04-08T06:33:04.382Z - info: Rendering request 2 finished in 1918 ms
+2021-04-08T06:34:06.111Z - info: Starting rendering request 3 (user: null)
+2021-04-08T06:34:06.113Z - info: Rendering template { name: paySlip, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-04-08T06:34:07.636Z - info: Rendering request 3 finished in 1525 ms
+2021-04-08T06:44:05.380Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-04-08T06:44:05.383Z - info: Searching for available extensions in /home/nissi/Desktop/payslip/
+2021-04-08T06:44:05.402Z - info: Extensions location cache contains up to date information, skipping crawling in /home/nissi/Desktop/payslip/
+2021-04-08T06:44:05.438Z - info: Found 35 extensions
+2021-04-08T06:44:06.113Z - info: Setting http-server strategy for rendering
+2021-04-08T06:44:06.333Z - info: Using extension cli@local:/home/nissi/Desktop/payslip/node_modules/jsreport-cli:2.2.5
+2021-04-08T06:44:06.373Z - info: Using extension debug@local:/home/nissi/Desktop/payslip/node_modules/jsreport-debug:2.1.3
+2021-04-08T06:44:06.393Z - info: Using extension express@local:/home/nissi/Desktop/payslip/node_modules/jsreport-express:2.8.1
+2021-04-08T06:44:06.897Z - info: Using extension freeze@local:/home/nissi/Desktop/payslip/node_modules/jsreport-freeze:2.0.0
+2021-04-08T06:44:06.916Z - info: Using extension handlebars@local:/home/nissi/Desktop/payslip/node_modules/jsreport-handlebars:2.1.0
+2021-04-08T06:44:06.932Z - info: Using extension import-export@local:/home/nissi/Desktop/payslip/node_modules/jsreport-import-export:2.1.1
+2021-04-08T06:44:07.114Z - info: Using extension jsrender@local:/home/nissi/Desktop/payslip/node_modules/jsreport-jsrender:2.1.1
+2021-04-08T06:44:07.119Z - info: Using extension tags@local:/home/nissi/Desktop/payslip/node_modules/jsreport-tags:2.5.0
+2021-04-08T06:44:07.146Z - info: Using extension templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-templates:2.4.0
+2021-04-08T06:44:07.152Z - info: Using extension authorization@local:/home/nissi/Desktop/payslip/node_modules/jsreport-authorization:2.4.0
+2021-04-08T06:44:07.183Z - info: Using extension base@local:/home/nissi/Desktop/payslip/node_modules/jsreport-base:2.0.2
+2021-04-08T06:44:07.188Z - info: Using extension browser-client@local:/home/nissi/Desktop/payslip/node_modules/jsreport-browser-client:2.2.2
+2021-04-08T06:44:07.195Z - info: Using extension child-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-child-templates:1.4.0
+2021-04-08T06:44:07.205Z - info: Using extension chrome-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-chrome-pdf:1.10.0
+2021-04-08T06:44:07.350Z - info: Using extension data@local:/home/nissi/Desktop/payslip/node_modules/jsreport-data:2.4.0
+2021-04-08T06:44:07.351Z - info: Using extension docx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-docx:2.9.0
+2021-04-08T06:44:07.356Z - info: Using extension fs-store@local:/home/nissi/Desktop/payslip/node_modules/jsreport-fs-store:2.9.1
+2021-04-08T06:44:07.745Z - info: Using extension licensing@local:/home/nissi/Desktop/payslip/node_modules/jsreport-licensing:2.2.3
+2021-04-08T06:44:07.766Z - info: Using extension pdf-utils@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pdf-utils:1.10.1
+2021-04-08T06:44:08.175Z - info: Using extension pptx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pptx:0.7.0
+2021-04-08T06:44:08.202Z - info: Using extension reports@local:/home/nissi/Desktop/payslip/node_modules/jsreport-reports:2.5.1
+2021-04-08T06:44:08.209Z - info: Using extension static-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-static-pdf:0.4.0
+2021-04-08T06:44:08.218Z - info: Using extension studio@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio:2.10.1
+2021-04-08T06:44:08.376Z - info: Using extension text@local:/home/nissi/Desktop/payslip/node_modules/jsreport-text:2.0.0
+2021-04-08T06:44:08.378Z - info: Using extension version-control@local:/home/nissi/Desktop/payslip/node_modules/jsreport-version-control:1.6.0
+2021-04-08T06:44:08.629Z - info: Using extension assets@local:/home/nissi/Desktop/payslip/node_modules/jsreport-assets:1.7.0
+2021-04-08T06:44:08.703Z - info: Using extension html-to-xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-html-to-xlsx:2.8.3
+2021-04-08T06:44:09.589Z - info: html-to-xlsx detected chrome as available html engine
+2021-04-08T06:44:09.591Z - info: Using extension scheduling@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scheduling:2.5.0
+2021-04-08T06:44:09.757Z - info: Using extension scripts@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scripts:2.6.0
+2021-04-08T06:44:09.796Z - info: Using extension studio-theme-dark@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio-theme-dark:0.3.0
+2021-04-08T06:44:09.802Z - info: Using extension xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-xlsx:2.5.0
+2021-04-08T06:44:10.261Z - info: Using extension public-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-public-templates:2.2.0
+2021-04-08T06:44:10.299Z - info: Using extension resources@local:/home/nissi/Desktop/payslip/node_modules/jsreport-resources:2.1.0
+2021-04-08T06:44:10.301Z - info: Using extension sample-template@local:/home/nissi/Desktop/payslip/node_modules/jsreport-sample-template:2.6.1
+2021-04-08T06:44:10.314Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-04-08T06:44:10.314Z - info: Using fs provider for template store.
+2021-04-08T06:44:10.331Z - info: fs store is persisting using fs
+2021-04-08T06:44:10.335Z - info: fs store is synchronizing using fs
+2021-04-08T06:44:10.350Z - info: fs store is loading data
+2021-04-08T06:44:10.505Z - info: fs store is initialized successfully
+2021-04-08T06:44:10.527Z - info: Creating default express app.
+2021-04-08T06:44:10.728Z - info: jsreport server successfully started on http port: 3004
+2021-04-08T06:44:10.731Z - info: fs store emits sockets to synchronize underlying changes with studio
+2021-04-08T06:44:10.812Z - info: Verifying license key free
+2021-04-08T06:44:10.818Z - info: Using free license
+2021-04-08T06:44:10.857Z - info: reporter initialized
+2021-04-08T06:46:47.685Z - info: Starting rendering request 1 (user: null)
+2021-04-08T06:46:47.697Z - info: Rendering template { name: paySlip, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-04-08T06:46:49.287Z - info: Rendering request 1 finished in 1603 ms
+2021-04-08T07:00:47.915Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-04-08T07:00:47.917Z - info: Searching for available extensions in /home/nissi/Desktop/payslip/
+2021-04-08T07:00:48.044Z - info: Extensions location cache contains up to date information, skipping crawling in /home/nissi/Desktop/payslip/
+2021-04-08T07:00:48.060Z - info: Found 35 extensions
+2021-04-08T07:00:48.277Z - info: Setting http-server strategy for rendering
+2021-04-08T07:00:48.445Z - info: Using extension cli@local:/home/nissi/Desktop/payslip/node_modules/jsreport-cli:2.2.5
+2021-04-08T07:00:48.455Z - info: Using extension debug@local:/home/nissi/Desktop/payslip/node_modules/jsreport-debug:2.1.3
+2021-04-08T07:00:48.462Z - info: Using extension express@local:/home/nissi/Desktop/payslip/node_modules/jsreport-express:2.8.1
+2021-04-08T07:00:48.565Z - info: Using extension freeze@local:/home/nissi/Desktop/payslip/node_modules/jsreport-freeze:2.0.0
+2021-04-08T07:00:48.567Z - info: Using extension handlebars@local:/home/nissi/Desktop/payslip/node_modules/jsreport-handlebars:2.1.0
+2021-04-08T07:00:48.569Z - info: Using extension import-export@local:/home/nissi/Desktop/payslip/node_modules/jsreport-import-export:2.1.1
+2021-04-08T07:00:48.605Z - info: Using extension jsrender@local:/home/nissi/Desktop/payslip/node_modules/jsreport-jsrender:2.1.1
+2021-04-08T07:00:48.606Z - info: Using extension tags@local:/home/nissi/Desktop/payslip/node_modules/jsreport-tags:2.5.0
+2021-04-08T07:00:48.608Z - info: Using extension templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-templates:2.4.0
+2021-04-08T07:00:48.611Z - info: Using extension authorization@local:/home/nissi/Desktop/payslip/node_modules/jsreport-authorization:2.4.0
+2021-04-08T07:00:48.614Z - info: Using extension base@local:/home/nissi/Desktop/payslip/node_modules/jsreport-base:2.0.2
+2021-04-08T07:00:48.615Z - info: Using extension browser-client@local:/home/nissi/Desktop/payslip/node_modules/jsreport-browser-client:2.2.2
+2021-04-08T07:00:48.617Z - info: Using extension child-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-child-templates:1.4.0
+2021-04-08T07:00:48.621Z - info: Using extension chrome-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-chrome-pdf:1.10.0
+2021-04-08T07:00:48.701Z - info: Using extension data@local:/home/nissi/Desktop/payslip/node_modules/jsreport-data:2.4.0
+2021-04-08T07:00:48.703Z - info: Using extension docx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-docx:2.9.0
+2021-04-08T07:00:48.708Z - info: Using extension fs-store@local:/home/nissi/Desktop/payslip/node_modules/jsreport-fs-store:2.9.1
+2021-04-08T07:00:48.814Z - info: Using extension licensing@local:/home/nissi/Desktop/payslip/node_modules/jsreport-licensing:2.2.3
+2021-04-08T07:00:48.817Z - info: Using extension pdf-utils@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pdf-utils:1.10.1
+2021-04-08T07:00:48.896Z - info: Using extension pptx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pptx:0.7.0
+2021-04-08T07:00:48.901Z - info: Using extension reports@local:/home/nissi/Desktop/payslip/node_modules/jsreport-reports:2.5.1
+2021-04-08T07:00:48.904Z - info: Using extension static-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-static-pdf:0.4.0
+2021-04-08T07:00:48.907Z - info: Using extension studio@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio:2.10.1
+2021-04-08T07:00:48.978Z - info: Using extension text@local:/home/nissi/Desktop/payslip/node_modules/jsreport-text:2.0.0
+2021-04-08T07:00:48.979Z - info: Using extension version-control@local:/home/nissi/Desktop/payslip/node_modules/jsreport-version-control:1.6.0
+2021-04-08T07:00:49.032Z - info: Using extension assets@local:/home/nissi/Desktop/payslip/node_modules/jsreport-assets:1.7.0
+2021-04-08T07:00:49.045Z - info: Using extension html-to-xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-html-to-xlsx:2.8.3
+2021-04-08T07:00:49.272Z - info: html-to-xlsx detected chrome as available html engine
+2021-04-08T07:00:49.273Z - info: Using extension scheduling@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scheduling:2.5.0
+2021-04-08T07:00:49.286Z - info: Using extension scripts@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scripts:2.6.0
+2021-04-08T07:00:49.292Z - info: Using extension studio-theme-dark@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio-theme-dark:0.3.0
+2021-04-08T07:00:49.293Z - info: Using extension xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-xlsx:2.5.0
+2021-04-08T07:00:49.393Z - info: Using extension public-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-public-templates:2.2.0
+2021-04-08T07:00:49.396Z - info: Using extension resources@local:/home/nissi/Desktop/payslip/node_modules/jsreport-resources:2.1.0
+2021-04-08T07:00:49.397Z - info: Using extension sample-template@local:/home/nissi/Desktop/payslip/node_modules/jsreport-sample-template:2.6.1
+2021-04-08T07:00:49.399Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-04-08T07:00:49.399Z - info: Using fs provider for template store.
+2021-04-08T07:00:49.407Z - info: fs store is persisting using fs
+2021-04-08T07:00:49.409Z - info: fs store is synchronizing using fs
+2021-04-08T07:00:49.440Z - info: fs store is loading data
+2021-04-08T07:00:49.525Z - info: fs store is initialized successfully
+2021-04-08T07:00:49.546Z - info: Creating default express app.
+2021-04-08T07:00:49.564Z - info: jsreport server successfully started on http port: 3004
+2021-04-08T07:00:49.565Z - info: fs store emits sockets to synchronize underlying changes with studio
+2021-04-08T07:00:49.579Z - info: Verifying license key free
+2021-04-08T07:00:49.580Z - info: Using free license
+2021-04-08T07:00:49.590Z - info: reporter initialized
+2021-04-08T07:01:11.412Z - info: Starting rendering request 1 (user: null)
+2021-04-08T07:01:11.424Z - info: Rendering template { name: paySlip, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-04-08T07:01:13.176Z - info: Rendering request 1 finished in 1765 ms
+2021-04-08T07:03:35.415Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-04-08T07:03:35.417Z - info: Searching for available extensions in /home/nissi/Desktop/payslip/
+2021-04-08T07:03:35.513Z - info: Extensions location cache contains up to date information, skipping crawling in /home/nissi/Desktop/payslip/
+2021-04-08T07:03:35.528Z - info: Found 35 extensions
+2021-04-08T07:03:35.794Z - info: Setting http-server strategy for rendering
+2021-04-08T07:03:35.958Z - info: Using extension cli@local:/home/nissi/Desktop/payslip/node_modules/jsreport-cli:2.2.5
+2021-04-08T07:03:35.967Z - info: Using extension debug@local:/home/nissi/Desktop/payslip/node_modules/jsreport-debug:2.1.3
+2021-04-08T07:03:35.973Z - info: Using extension express@local:/home/nissi/Desktop/payslip/node_modules/jsreport-express:2.8.1
+2021-04-08T07:03:36.077Z - info: Using extension freeze@local:/home/nissi/Desktop/payslip/node_modules/jsreport-freeze:2.0.0
+2021-04-08T07:03:36.079Z - info: Using extension handlebars@local:/home/nissi/Desktop/payslip/node_modules/jsreport-handlebars:2.1.0
+2021-04-08T07:03:36.081Z - info: Using extension import-export@local:/home/nissi/Desktop/payslip/node_modules/jsreport-import-export:2.1.1
+2021-04-08T07:03:36.118Z - info: Using extension jsrender@local:/home/nissi/Desktop/payslip/node_modules/jsreport-jsrender:2.1.1
+2021-04-08T07:03:36.118Z - info: Using extension tags@local:/home/nissi/Desktop/payslip/node_modules/jsreport-tags:2.5.0
+2021-04-08T07:03:36.120Z - info: Using extension templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-templates:2.4.0
+2021-04-08T07:03:36.123Z - info: Using extension authorization@local:/home/nissi/Desktop/payslip/node_modules/jsreport-authorization:2.4.0
+2021-04-08T07:03:36.126Z - info: Using extension base@local:/home/nissi/Desktop/payslip/node_modules/jsreport-base:2.0.2
+2021-04-08T07:03:36.127Z - info: Using extension browser-client@local:/home/nissi/Desktop/payslip/node_modules/jsreport-browser-client:2.2.2
+2021-04-08T07:03:36.129Z - info: Using extension child-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-child-templates:1.4.0
+2021-04-08T07:03:36.132Z - info: Using extension chrome-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-chrome-pdf:1.10.0
+2021-04-08T07:03:36.210Z - info: Using extension data@local:/home/nissi/Desktop/payslip/node_modules/jsreport-data:2.4.0
+2021-04-08T07:03:36.211Z - info: Using extension docx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-docx:2.9.0
+2021-04-08T07:03:36.215Z - info: Using extension fs-store@local:/home/nissi/Desktop/payslip/node_modules/jsreport-fs-store:2.9.1
+2021-04-08T07:03:36.315Z - info: Using extension licensing@local:/home/nissi/Desktop/payslip/node_modules/jsreport-licensing:2.2.3
+2021-04-08T07:03:36.317Z - info: Using extension pdf-utils@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pdf-utils:1.10.1
+2021-04-08T07:03:36.391Z - info: Using extension pptx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pptx:0.7.0
+2021-04-08T07:03:36.397Z - info: Using extension reports@local:/home/nissi/Desktop/payslip/node_modules/jsreport-reports:2.5.1
+2021-04-08T07:03:36.402Z - info: Using extension static-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-static-pdf:0.4.0
+2021-04-08T07:03:36.405Z - info: Using extension studio@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio:2.10.1
+2021-04-08T07:03:36.471Z - info: Using extension text@local:/home/nissi/Desktop/payslip/node_modules/jsreport-text:2.0.0
+2021-04-08T07:03:36.472Z - info: Using extension version-control@local:/home/nissi/Desktop/payslip/node_modules/jsreport-version-control:1.6.0
+2021-04-08T07:03:36.525Z - info: Using extension assets@local:/home/nissi/Desktop/payslip/node_modules/jsreport-assets:1.7.0
+2021-04-08T07:03:36.539Z - info: Using extension html-to-xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-html-to-xlsx:2.8.3
+2021-04-08T07:03:36.747Z - info: html-to-xlsx detected chrome as available html engine
+2021-04-08T07:03:36.747Z - info: Using extension scheduling@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scheduling:2.5.0
+2021-04-08T07:03:36.760Z - info: Using extension scripts@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scripts:2.6.0
+2021-04-08T07:03:36.763Z - info: Using extension studio-theme-dark@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio-theme-dark:0.3.0
+2021-04-08T07:03:36.764Z - info: Using extension xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-xlsx:2.5.0
+2021-04-08T07:03:36.858Z - info: Using extension public-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-public-templates:2.2.0
+2021-04-08T07:03:36.860Z - info: Using extension resources@local:/home/nissi/Desktop/payslip/node_modules/jsreport-resources:2.1.0
+2021-04-08T07:03:36.861Z - info: Using extension sample-template@local:/home/nissi/Desktop/payslip/node_modules/jsreport-sample-template:2.6.1
+2021-04-08T07:03:36.863Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-04-08T07:03:36.864Z - info: Using fs provider for template store.
+2021-04-08T07:03:36.871Z - info: fs store is persisting using fs
+2021-04-08T07:03:36.873Z - info: fs store is synchronizing using fs
+2021-04-08T07:03:36.893Z - info: fs store is loading data
+2021-04-08T07:03:36.978Z - info: fs store is initialized successfully
+2021-04-08T07:03:36.997Z - info: Creating default express app.
+2021-04-08T07:03:37.015Z - info: jsreport server successfully started on http port: 3004
+2021-04-08T07:03:37.015Z - info: fs store emits sockets to synchronize underlying changes with studio
+2021-04-08T07:03:37.029Z - info: Verifying license key free
+2021-04-08T07:03:37.030Z - info: Using free license
+2021-04-08T07:03:37.039Z - info: reporter initialized
+2021-04-08T07:05:44.566Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-04-08T07:05:44.568Z - info: Searching for available extensions in /home/nissi/Desktop/payslip/
+2021-04-08T07:05:44.722Z - info: Extensions location cache contains up to date information, skipping crawling in /home/nissi/Desktop/payslip/
+2021-04-08T07:05:44.750Z - info: Found 35 extensions
+2021-04-08T07:05:45.030Z - info: Setting http-server strategy for rendering
+2021-04-08T07:05:45.261Z - info: Using extension cli@local:/home/nissi/Desktop/payslip/node_modules/jsreport-cli:2.2.5
+2021-04-08T07:05:45.276Z - info: Using extension debug@local:/home/nissi/Desktop/payslip/node_modules/jsreport-debug:2.1.3
+2021-04-08T07:05:45.285Z - info: Using extension express@local:/home/nissi/Desktop/payslip/node_modules/jsreport-express:2.8.1
+2021-04-08T07:05:45.426Z - info: Using extension freeze@local:/home/nissi/Desktop/payslip/node_modules/jsreport-freeze:2.0.0
+2021-04-08T07:05:45.428Z - info: Using extension handlebars@local:/home/nissi/Desktop/payslip/node_modules/jsreport-handlebars:2.1.0
+2021-04-08T07:05:45.430Z - info: Using extension import-export@local:/home/nissi/Desktop/payslip/node_modules/jsreport-import-export:2.1.1
+2021-04-08T07:05:45.476Z - info: Using extension jsrender@local:/home/nissi/Desktop/payslip/node_modules/jsreport-jsrender:2.1.1
+2021-04-08T07:05:45.476Z - info: Using extension tags@local:/home/nissi/Desktop/payslip/node_modules/jsreport-tags:2.5.0
+2021-04-08T07:05:45.479Z - info: Using extension templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-templates:2.4.0
+2021-04-08T07:05:45.482Z - info: Using extension authorization@local:/home/nissi/Desktop/payslip/node_modules/jsreport-authorization:2.4.0
+2021-04-08T07:05:45.486Z - info: Using extension base@local:/home/nissi/Desktop/payslip/node_modules/jsreport-base:2.0.2
+2021-04-08T07:05:45.488Z - info: Using extension browser-client@local:/home/nissi/Desktop/payslip/node_modules/jsreport-browser-client:2.2.2
+2021-04-08T07:05:45.490Z - info: Using extension child-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-child-templates:1.4.0
+2021-04-08T07:05:45.494Z - info: Using extension chrome-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-chrome-pdf:1.10.0
+2021-04-08T07:05:45.584Z - info: Using extension data@local:/home/nissi/Desktop/payslip/node_modules/jsreport-data:2.4.0
+2021-04-08T07:05:45.585Z - info: Using extension docx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-docx:2.9.0
+2021-04-08T07:05:45.591Z - info: Using extension fs-store@local:/home/nissi/Desktop/payslip/node_modules/jsreport-fs-store:2.9.1
+2021-04-08T07:05:45.728Z - info: Using extension licensing@local:/home/nissi/Desktop/payslip/node_modules/jsreport-licensing:2.2.3
+2021-04-08T07:05:45.732Z - info: Using extension pdf-utils@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pdf-utils:1.10.1
+2021-04-08T07:05:45.841Z - info: Using extension pptx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pptx:0.7.0
+2021-04-08T07:05:45.848Z - info: Using extension reports@local:/home/nissi/Desktop/payslip/node_modules/jsreport-reports:2.5.1
+2021-04-08T07:05:45.854Z - info: Using extension static-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-static-pdf:0.4.0
+2021-04-08T07:05:45.858Z - info: Using extension studio@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio:2.10.1
+2021-04-08T07:05:45.956Z - info: Using extension text@local:/home/nissi/Desktop/payslip/node_modules/jsreport-text:2.0.0
+2021-04-08T07:05:45.957Z - info: Using extension version-control@local:/home/nissi/Desktop/payslip/node_modules/jsreport-version-control:1.6.0
+2021-04-08T07:05:46.030Z - info: Using extension assets@local:/home/nissi/Desktop/payslip/node_modules/jsreport-assets:1.7.0
+2021-04-08T07:05:46.046Z - info: Using extension html-to-xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-html-to-xlsx:2.8.3
+2021-04-08T07:05:46.387Z - info: html-to-xlsx detected chrome as available html engine
+2021-04-08T07:05:46.387Z - info: Using extension scheduling@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scheduling:2.5.0
+2021-04-08T07:05:46.412Z - info: Using extension scripts@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scripts:2.6.0
+2021-04-08T07:05:46.417Z - info: Using extension studio-theme-dark@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio-theme-dark:0.3.0
+2021-04-08T07:05:46.419Z - info: Using extension xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-xlsx:2.5.0
+2021-04-08T07:05:46.542Z - info: Using extension public-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-public-templates:2.2.0
+2021-04-08T07:05:46.545Z - info: Using extension resources@local:/home/nissi/Desktop/payslip/node_modules/jsreport-resources:2.1.0
+2021-04-08T07:05:46.546Z - info: Using extension sample-template@local:/home/nissi/Desktop/payslip/node_modules/jsreport-sample-template:2.6.1
+2021-04-08T07:05:46.549Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-04-08T07:05:46.549Z - info: Using fs provider for template store.
+2021-04-08T07:05:46.560Z - info: fs store is persisting using fs
+2021-04-08T07:05:46.562Z - info: fs store is synchronizing using fs
+2021-04-08T07:05:49.063Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-04-08T07:05:49.064Z - info: Searching for available extensions in /home/nissi/Desktop/payslip/
+2021-04-08T07:05:49.191Z - info: Extensions location cache contains up to date information, skipping crawling in /home/nissi/Desktop/payslip/
+2021-04-08T07:05:49.208Z - info: Found 35 extensions
+2021-04-08T07:05:49.464Z - info: Setting http-server strategy for rendering
+2021-04-08T07:05:49.632Z - info: Using extension cli@local:/home/nissi/Desktop/payslip/node_modules/jsreport-cli:2.2.5
+2021-04-08T07:05:49.643Z - info: Using extension debug@local:/home/nissi/Desktop/payslip/node_modules/jsreport-debug:2.1.3
+2021-04-08T07:05:49.649Z - info: Using extension express@local:/home/nissi/Desktop/payslip/node_modules/jsreport-express:2.8.1
+2021-04-08T07:05:49.759Z - info: Using extension freeze@local:/home/nissi/Desktop/payslip/node_modules/jsreport-freeze:2.0.0
+2021-04-08T07:05:49.761Z - info: Using extension handlebars@local:/home/nissi/Desktop/payslip/node_modules/jsreport-handlebars:2.1.0
+2021-04-08T07:05:49.763Z - info: Using extension import-export@local:/home/nissi/Desktop/payslip/node_modules/jsreport-import-export:2.1.1
+2021-04-08T07:05:49.798Z - info: Using extension jsrender@local:/home/nissi/Desktop/payslip/node_modules/jsreport-jsrender:2.1.1
+2021-04-08T07:05:49.799Z - info: Using extension tags@local:/home/nissi/Desktop/payslip/node_modules/jsreport-tags:2.5.0
+2021-04-08T07:05:49.801Z - info: Using extension templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-templates:2.4.0
+2021-04-08T07:05:49.804Z - info: Using extension authorization@local:/home/nissi/Desktop/payslip/node_modules/jsreport-authorization:2.4.0
+2021-04-08T07:05:49.807Z - info: Using extension base@local:/home/nissi/Desktop/payslip/node_modules/jsreport-base:2.0.2
+2021-04-08T07:05:49.808Z - info: Using extension browser-client@local:/home/nissi/Desktop/payslip/node_modules/jsreport-browser-client:2.2.2
+2021-04-08T07:05:49.810Z - info: Using extension child-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-child-templates:1.4.0
+2021-04-08T07:05:49.814Z - info: Using extension chrome-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-chrome-pdf:1.10.0
+2021-04-08T07:05:49.883Z - info: Using extension data@local:/home/nissi/Desktop/payslip/node_modules/jsreport-data:2.4.0
+2021-04-08T07:05:49.884Z - info: Using extension docx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-docx:2.9.0
+2021-04-08T07:05:49.891Z - info: Using extension fs-store@local:/home/nissi/Desktop/payslip/node_modules/jsreport-fs-store:2.9.1
+2021-04-08T07:05:49.994Z - info: Using extension licensing@local:/home/nissi/Desktop/payslip/node_modules/jsreport-licensing:2.2.3
+2021-04-08T07:05:49.997Z - info: Using extension pdf-utils@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pdf-utils:1.10.1
+2021-04-08T07:05:50.071Z - info: Using extension pptx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pptx:0.7.0
+2021-04-08T07:05:50.077Z - info: Using extension reports@local:/home/nissi/Desktop/payslip/node_modules/jsreport-reports:2.5.1
+2021-04-08T07:05:50.081Z - info: Using extension static-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-static-pdf:0.4.0
+2021-04-08T07:05:50.085Z - info: Using extension studio@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio:2.10.1
+2021-04-08T07:05:50.150Z - info: Using extension text@local:/home/nissi/Desktop/payslip/node_modules/jsreport-text:2.0.0
+2021-04-08T07:05:50.151Z - info: Using extension version-control@local:/home/nissi/Desktop/payslip/node_modules/jsreport-version-control:1.6.0
+2021-04-08T07:05:50.206Z - info: Using extension assets@local:/home/nissi/Desktop/payslip/node_modules/jsreport-assets:1.7.0
+2021-04-08T07:05:50.218Z - info: Using extension html-to-xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-html-to-xlsx:2.8.3
+2021-04-08T07:05:50.424Z - info: html-to-xlsx detected chrome as available html engine
+2021-04-08T07:05:50.425Z - info: Using extension scheduling@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scheduling:2.5.0
+2021-04-08T07:05:50.437Z - info: Using extension scripts@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scripts:2.6.0
+2021-04-08T07:05:50.441Z - info: Using extension studio-theme-dark@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio-theme-dark:0.3.0
+2021-04-08T07:05:50.442Z - info: Using extension xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-xlsx:2.5.0
+2021-04-08T07:05:50.540Z - info: Using extension public-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-public-templates:2.2.0
+2021-04-08T07:05:50.542Z - info: Using extension resources@local:/home/nissi/Desktop/payslip/node_modules/jsreport-resources:2.1.0
+2021-04-08T07:05:50.543Z - info: Using extension sample-template@local:/home/nissi/Desktop/payslip/node_modules/jsreport-sample-template:2.6.1
+2021-04-08T07:05:50.545Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-04-08T07:05:50.545Z - info: Using fs provider for template store.
+2021-04-08T07:05:50.553Z - info: fs store is persisting using fs
+2021-04-08T07:05:50.555Z - info: fs store is synchronizing using fs
+2021-04-08T07:05:50.586Z - info: fs store is loading data
+2021-04-08T07:05:50.669Z - info: fs store is initialized successfully
+2021-04-08T07:05:50.689Z - info: Creating default express app.
+2021-04-08T07:05:50.707Z - info: jsreport server successfully started on http port: 3004
+2021-04-08T07:05:50.708Z - info: fs store emits sockets to synchronize underlying changes with studio
+2021-04-08T07:05:50.723Z - info: Verifying license key free
+2021-04-08T07:05:50.724Z - info: Using free license
+2021-04-08T07:05:50.735Z - info: reporter initialized
+2021-04-08T07:12:40.352Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-04-08T07:12:40.353Z - info: Searching for available extensions in /home/nissi/Desktop/payslip/
+2021-04-08T07:12:40.447Z - info: Extensions location cache /tmp/jsreport/core/locations.json contains older information, crawling
+2021-04-08T07:12:40.762Z - info: Found 35 extensions
+2021-04-08T07:12:41.004Z - info: Setting http-server strategy for rendering
+2021-04-08T07:12:41.172Z - info: Using extension cli@local:/home/nissi/Desktop/payslip/node_modules/jsreport-cli:2.2.5
+2021-04-08T07:12:41.182Z - info: Using extension debug@local:/home/nissi/Desktop/payslip/node_modules/jsreport-debug:2.1.3
+2021-04-08T07:12:41.187Z - info: Using extension express@local:/home/nissi/Desktop/payslip/node_modules/jsreport-express:2.8.1
+2021-04-08T07:12:41.282Z - info: Using extension freeze@local:/home/nissi/Desktop/payslip/node_modules/jsreport-freeze:2.0.0
+2021-04-08T07:12:41.284Z - info: Using extension handlebars@local:/home/nissi/Desktop/payslip/node_modules/jsreport-handlebars:2.1.0
+2021-04-08T07:12:41.286Z - info: Using extension import-export@local:/home/nissi/Desktop/payslip/node_modules/jsreport-import-export:2.1.1
+2021-04-08T07:12:41.322Z - info: Using extension jsrender@local:/home/nissi/Desktop/payslip/node_modules/jsreport-jsrender:2.1.1
+2021-04-08T07:12:41.323Z - info: Using extension tags@local:/home/nissi/Desktop/payslip/node_modules/jsreport-tags:2.5.0
+2021-04-08T07:12:41.325Z - info: Using extension templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-templates:2.4.0
+2021-04-08T07:12:41.328Z - info: Using extension authorization@local:/home/nissi/Desktop/payslip/node_modules/jsreport-authorization:2.4.0
+2021-04-08T07:12:41.330Z - info: Using extension base@local:/home/nissi/Desktop/payslip/node_modules/jsreport-base:2.0.2
+2021-04-08T07:12:41.332Z - info: Using extension browser-client@local:/home/nissi/Desktop/payslip/node_modules/jsreport-browser-client:2.2.2
+2021-04-08T07:12:41.334Z - info: Using extension child-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-child-templates:1.4.0
+2021-04-08T07:12:41.337Z - info: Using extension chrome-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-chrome-pdf:1.10.0
+2021-04-08T07:12:41.414Z - info: Using extension data@local:/home/nissi/Desktop/payslip/node_modules/jsreport-data:2.4.0
+2021-04-08T07:12:41.415Z - info: Using extension docx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-docx:2.9.0
+2021-04-08T07:12:41.418Z - info: Using extension fs-store@local:/home/nissi/Desktop/payslip/node_modules/jsreport-fs-store:2.9.1
+2021-04-08T07:12:41.536Z - info: Using extension licensing@local:/home/nissi/Desktop/payslip/node_modules/jsreport-licensing:2.2.3
+2021-04-08T07:12:41.539Z - info: Using extension pdf-utils@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pdf-utils:1.10.1
+2021-04-08T07:12:41.620Z - info: Using extension pptx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pptx:0.7.0
+2021-04-08T07:12:41.626Z - info: Using extension reports@local:/home/nissi/Desktop/payslip/node_modules/jsreport-reports:2.5.1
+2021-04-08T07:12:41.631Z - info: Using extension static-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-static-pdf:0.4.0
+2021-04-08T07:12:41.634Z - info: Using extension studio@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio:2.10.1
+2021-04-08T07:12:41.699Z - info: Using extension text@local:/home/nissi/Desktop/payslip/node_modules/jsreport-text:2.0.0
+2021-04-08T07:12:41.700Z - info: Using extension version-control@local:/home/nissi/Desktop/payslip/node_modules/jsreport-version-control:1.6.0
+2021-04-08T07:12:41.759Z - info: Using extension assets@local:/home/nissi/Desktop/payslip/node_modules/jsreport-assets:1.7.0
+2021-04-08T07:12:41.771Z - info: Using extension html-to-xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-html-to-xlsx:2.8.3
+2021-04-08T07:12:41.998Z - info: html-to-xlsx detected chrome as available html engine
+2021-04-08T07:12:41.999Z - info: Using extension scheduling@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scheduling:2.5.0
+2021-04-08T07:12:42.013Z - info: Using extension scripts@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scripts:2.6.0
+2021-04-08T07:12:42.016Z - info: Using extension studio-theme-dark@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio-theme-dark:0.3.0
+2021-04-08T07:12:42.017Z - info: Using extension xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-xlsx:2.5.0
+2021-04-08T07:12:42.114Z - info: Using extension public-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-public-templates:2.2.0
+2021-04-08T07:12:42.116Z - info: Using extension resources@local:/home/nissi/Desktop/payslip/node_modules/jsreport-resources:2.1.0
+2021-04-08T07:12:42.117Z - info: Using extension sample-template@local:/home/nissi/Desktop/payslip/node_modules/jsreport-sample-template:2.6.1
+2021-04-08T07:12:42.120Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-04-08T07:12:42.120Z - info: Using fs provider for template store.
+2021-04-08T07:12:42.128Z - info: fs store is persisting using fs
+2021-04-08T07:12:42.129Z - info: fs store is synchronizing using fs
+2021-04-08T07:12:42.156Z - info: fs store is loading data
+2021-04-08T07:12:42.253Z - info: fs store is initialized successfully
+2021-04-08T07:12:42.272Z - info: Creating default express app.
+2021-04-08T07:12:42.290Z - info: jsreport server successfully started on http port: 3004
+2021-04-08T07:12:42.291Z - info: fs store emits sockets to synchronize underlying changes with studio
+2021-04-08T07:12:42.305Z - info: Verifying license key free
+2021-04-08T07:12:42.306Z - info: Using free license
+2021-04-08T07:12:42.316Z - info: reporter initialized
+2021-04-08T07:12:51.204Z - info: Starting rendering request 1 (user: null)
+2021-04-08T07:12:51.249Z - warn: Rendering request 1 finished with error in 45 ms
+2021-04-08T07:12:51.250Z - warn: Error when processing render request 1 Template must contains _id, shortid or content attribute Error: Template must contains _id, shortid or content attribute
+    at module.exports (/home/nissi/Desktop/payslip/node_modules/jsreport-core/lib/util/createError.js:11:13)
+    at Reporter.createError (/home/nissi/Desktop/payslip/node_modules/jsreport-core/lib/reporter.js:332:12)
+    at AsyncFunction.<anonymous> (/home/nissi/Desktop/payslip/node_modules/jsreport-templates/lib/templates.js:36:22)
+    at /home/nissi/Desktop/payslip/node_modules/listener-collection/lib/listenerCollection.js:171:33
+    at /home/nissi/Desktop/payslip/node_modules/listener-collection/lib/listenerCollection.js:151:16
+    at tryCatcher (/home/nissi/Desktop/payslip/node_modules/listener-collection/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/home/nissi/Desktop/payslip/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:512:31)
+    at Promise._settlePromise (/home/nissi/Desktop/payslip/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:569:18)
+    at Promise._settlePromise0 (/home/nissi/Desktop/payslip/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:614:10)
+    at Promise._settlePromises (/home/nissi/Desktop/payslip/node_modules/listener-collection/node_modules/bluebird/js/release/promise.js:693:18)
+    at Async._drainQueue (/home/nissi/Desktop/payslip/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:133:16)
+    at Async._drainQueues (/home/nissi/Desktop/payslip/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:143:10)
+    at Immediate.Async.drainQueues (/home/nissi/Desktop/payslip/node_modules/listener-collection/node_modules/bluebird/js/release/async.js:17:14)
+    at processImmediate (internal/timers.js:461:21)
+2021-04-08T07:12:51.255Z - warn: Error during processing request at http://localhost:3004/api/report
+2021-04-08T07:16:50.851Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-04-08T07:16:50.852Z - info: Searching for available extensions in /home/nissi/Desktop/payslip/
+2021-04-08T07:16:50.956Z - info: Extensions location cache contains up to date information, skipping crawling in /home/nissi/Desktop/payslip/
+2021-04-08T07:16:50.974Z - info: Found 35 extensions
+2021-04-08T07:16:51.275Z - info: Setting http-server strategy for rendering
+2021-04-08T07:16:51.450Z - info: Using extension cli@local:/home/nissi/Desktop/payslip/node_modules/jsreport-cli:2.2.5
+2021-04-08T07:16:51.460Z - info: Using extension debug@local:/home/nissi/Desktop/payslip/node_modules/jsreport-debug:2.1.3
+2021-04-08T07:16:51.466Z - info: Using extension express@local:/home/nissi/Desktop/payslip/node_modules/jsreport-express:2.8.1
+2021-04-08T07:16:51.583Z - info: Using extension freeze@local:/home/nissi/Desktop/payslip/node_modules/jsreport-freeze:2.0.0
+2021-04-08T07:16:51.585Z - info: Using extension handlebars@local:/home/nissi/Desktop/payslip/node_modules/jsreport-handlebars:2.1.0
+2021-04-08T07:16:51.587Z - info: Using extension import-export@local:/home/nissi/Desktop/payslip/node_modules/jsreport-import-export:2.1.1
+2021-04-08T07:16:51.626Z - info: Using extension jsrender@local:/home/nissi/Desktop/payslip/node_modules/jsreport-jsrender:2.1.1
+2021-04-08T07:16:51.626Z - info: Using extension tags@local:/home/nissi/Desktop/payslip/node_modules/jsreport-tags:2.5.0
+2021-04-08T07:16:51.629Z - info: Using extension templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-templates:2.4.0
+2021-04-08T07:16:51.631Z - info: Using extension authorization@local:/home/nissi/Desktop/payslip/node_modules/jsreport-authorization:2.4.0
+2021-04-08T07:16:51.634Z - info: Using extension base@local:/home/nissi/Desktop/payslip/node_modules/jsreport-base:2.0.2
+2021-04-08T07:16:51.636Z - info: Using extension browser-client@local:/home/nissi/Desktop/payslip/node_modules/jsreport-browser-client:2.2.2
+2021-04-08T07:16:51.638Z - info: Using extension child-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-child-templates:1.4.0
+2021-04-08T07:16:51.643Z - info: Using extension chrome-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-chrome-pdf:1.10.0
+2021-04-08T07:16:51.726Z - info: Using extension data@local:/home/nissi/Desktop/payslip/node_modules/jsreport-data:2.4.0
+2021-04-08T07:16:51.727Z - info: Using extension docx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-docx:2.9.0
+2021-04-08T07:16:51.732Z - info: Using extension fs-store@local:/home/nissi/Desktop/payslip/node_modules/jsreport-fs-store:2.9.1
+2021-04-08T07:16:51.841Z - info: Using extension licensing@local:/home/nissi/Desktop/payslip/node_modules/jsreport-licensing:2.2.3
+2021-04-08T07:16:51.844Z - info: Using extension pdf-utils@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pdf-utils:1.10.1
+2021-04-08T07:16:51.928Z - info: Using extension pptx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pptx:0.7.0
+2021-04-08T07:16:51.933Z - info: Using extension reports@local:/home/nissi/Desktop/payslip/node_modules/jsreport-reports:2.5.1
+2021-04-08T07:16:51.938Z - info: Using extension static-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-static-pdf:0.4.0
+2021-04-08T07:16:51.941Z - info: Using extension studio@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio:2.10.1
+2021-04-08T07:16:52.023Z - info: Using extension text@local:/home/nissi/Desktop/payslip/node_modules/jsreport-text:2.0.0
+2021-04-08T07:16:52.024Z - info: Using extension version-control@local:/home/nissi/Desktop/payslip/node_modules/jsreport-version-control:1.6.0
+2021-04-08T07:16:52.098Z - info: Using extension assets@local:/home/nissi/Desktop/payslip/node_modules/jsreport-assets:1.7.0
+2021-04-08T07:16:52.119Z - info: Using extension html-to-xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-html-to-xlsx:2.8.3
+2021-04-08T07:16:52.488Z - info: html-to-xlsx detected chrome as available html engine
+2021-04-08T07:16:52.489Z - info: Using extension scheduling@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scheduling:2.5.0
+2021-04-08T07:16:52.511Z - info: Using extension scripts@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scripts:2.6.0
+2021-04-08T07:16:52.517Z - info: Using extension studio-theme-dark@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio-theme-dark:0.3.0
+2021-04-08T07:16:52.518Z - info: Using extension xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-xlsx:2.5.0
+2021-04-08T07:16:52.666Z - info: Using extension public-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-public-templates:2.2.0
+2021-04-08T07:16:52.671Z - info: Using extension resources@local:/home/nissi/Desktop/payslip/node_modules/jsreport-resources:2.1.0
+2021-04-08T07:16:52.672Z - info: Using extension sample-template@local:/home/nissi/Desktop/payslip/node_modules/jsreport-sample-template:2.6.1
+2021-04-08T07:16:52.675Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-04-08T07:16:52.675Z - info: Using fs provider for template store.
+2021-04-08T07:16:52.687Z - info: fs store is persisting using fs
+2021-04-08T07:16:52.688Z - info: fs store is synchronizing using fs
+2021-04-08T07:16:52.726Z - info: fs store is loading data
+2021-04-08T07:16:52.852Z - info: fs store is initialized successfully
+2021-04-08T07:16:52.887Z - info: Creating default express app.
+2021-04-08T07:16:52.916Z - info: jsreport server successfully started on http port: 3004
+2021-04-08T07:16:52.917Z - info: fs store emits sockets to synchronize underlying changes with studio
+2021-04-08T07:16:52.941Z - info: Verifying license key free
+2021-04-08T07:16:52.944Z - info: Using free license
+2021-04-08T07:16:52.955Z - info: reporter initialized
+2021-04-08T07:16:56.246Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-04-08T07:16:56.248Z - info: Searching for available extensions in /home/nissi/Desktop/payslip/
+2021-04-08T07:16:56.409Z - info: Extensions location cache contains up to date information, skipping crawling in /home/nissi/Desktop/payslip/
+2021-04-08T07:16:56.436Z - info: Found 35 extensions
+2021-04-08T07:16:56.734Z - info: Setting http-server strategy for rendering
+2021-04-08T07:16:56.936Z - info: Using extension cli@local:/home/nissi/Desktop/payslip/node_modules/jsreport-cli:2.2.5
+2021-04-08T07:16:56.946Z - info: Using extension debug@local:/home/nissi/Desktop/payslip/node_modules/jsreport-debug:2.1.3
+2021-04-08T07:16:56.952Z - info: Using extension express@local:/home/nissi/Desktop/payslip/node_modules/jsreport-express:2.8.1
+2021-04-08T07:16:57.078Z - info: Using extension freeze@local:/home/nissi/Desktop/payslip/node_modules/jsreport-freeze:2.0.0
+2021-04-08T07:16:57.080Z - info: Using extension handlebars@local:/home/nissi/Desktop/payslip/node_modules/jsreport-handlebars:2.1.0
+2021-04-08T07:16:57.083Z - info: Using extension import-export@local:/home/nissi/Desktop/payslip/node_modules/jsreport-import-export:2.1.1
+2021-04-08T07:16:57.123Z - info: Using extension jsrender@local:/home/nissi/Desktop/payslip/node_modules/jsreport-jsrender:2.1.1
+2021-04-08T07:16:57.124Z - info: Using extension tags@local:/home/nissi/Desktop/payslip/node_modules/jsreport-tags:2.5.0
+2021-04-08T07:16:57.126Z - info: Using extension templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-templates:2.4.0
+2021-04-08T07:16:57.128Z - info: Using extension authorization@local:/home/nissi/Desktop/payslip/node_modules/jsreport-authorization:2.4.0
+2021-04-08T07:16:57.131Z - info: Using extension base@local:/home/nissi/Desktop/payslip/node_modules/jsreport-base:2.0.2
+2021-04-08T07:16:57.132Z - info: Using extension browser-client@local:/home/nissi/Desktop/payslip/node_modules/jsreport-browser-client:2.2.2
+2021-04-08T07:16:57.134Z - info: Using extension child-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-child-templates:1.4.0
+2021-04-08T07:16:57.138Z - info: Using extension chrome-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-chrome-pdf:1.10.0
+2021-04-08T07:16:57.226Z - info: Using extension data@local:/home/nissi/Desktop/payslip/node_modules/jsreport-data:2.4.0
+2021-04-08T07:16:57.227Z - info: Using extension docx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-docx:2.9.0
+2021-04-08T07:16:57.235Z - info: Using extension fs-store@local:/home/nissi/Desktop/payslip/node_modules/jsreport-fs-store:2.9.1
+2021-04-08T07:16:57.391Z - info: Using extension licensing@local:/home/nissi/Desktop/payslip/node_modules/jsreport-licensing:2.2.3
+2021-04-08T07:16:57.395Z - info: Using extension pdf-utils@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pdf-utils:1.10.1
+2021-04-08T07:16:57.510Z - info: Using extension pptx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pptx:0.7.0
+2021-04-08T07:16:57.517Z - info: Using extension reports@local:/home/nissi/Desktop/payslip/node_modules/jsreport-reports:2.5.1
+2021-04-08T07:16:57.521Z - info: Using extension static-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-static-pdf:0.4.0
+2021-04-08T07:16:57.525Z - info: Using extension studio@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio:2.10.1
+2021-04-08T07:16:57.595Z - info: Using extension text@local:/home/nissi/Desktop/payslip/node_modules/jsreport-text:2.0.0
+2021-04-08T07:16:57.596Z - info: Using extension version-control@local:/home/nissi/Desktop/payslip/node_modules/jsreport-version-control:1.6.0
+2021-04-08T07:16:57.664Z - info: Using extension assets@local:/home/nissi/Desktop/payslip/node_modules/jsreport-assets:1.7.0
+2021-04-08T07:16:57.680Z - info: Using extension html-to-xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-html-to-xlsx:2.8.3
+2021-04-08T07:16:58.003Z - info: html-to-xlsx detected chrome as available html engine
+2021-04-08T07:16:58.003Z - info: Using extension scheduling@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scheduling:2.5.0
+2021-04-08T07:16:58.017Z - info: Using extension scripts@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scripts:2.6.0
+2021-04-08T07:16:58.020Z - info: Using extension studio-theme-dark@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio-theme-dark:0.3.0
+2021-04-08T07:16:58.021Z - info: Using extension xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-xlsx:2.5.0
+2021-04-08T07:16:58.127Z - info: Using extension public-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-public-templates:2.2.0
+2021-04-08T07:16:58.131Z - info: Using extension resources@local:/home/nissi/Desktop/payslip/node_modules/jsreport-resources:2.1.0
+2021-04-08T07:16:58.133Z - info: Using extension sample-template@local:/home/nissi/Desktop/payslip/node_modules/jsreport-sample-template:2.6.1
+2021-04-08T07:16:58.135Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-04-08T07:16:58.136Z - info: Using fs provider for template store.
+2021-04-08T07:16:58.148Z - info: fs store is persisting using fs
+2021-04-08T07:16:58.149Z - info: fs store is synchronizing using fs
+2021-04-08T07:17:00.325Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-04-08T07:17:00.327Z - info: Searching for available extensions in /home/nissi/Desktop/payslip/
+2021-04-08T07:17:00.508Z - info: Extensions location cache contains up to date information, skipping crawling in /home/nissi/Desktop/payslip/
+2021-04-08T07:17:00.531Z - info: Found 35 extensions
+2021-04-08T07:17:00.799Z - info: Setting http-server strategy for rendering
+2021-04-08T07:17:00.978Z - info: Using extension cli@local:/home/nissi/Desktop/payslip/node_modules/jsreport-cli:2.2.5
+2021-04-08T07:17:00.988Z - info: Using extension debug@local:/home/nissi/Desktop/payslip/node_modules/jsreport-debug:2.1.3
+2021-04-08T07:17:00.995Z - info: Using extension express@local:/home/nissi/Desktop/payslip/node_modules/jsreport-express:2.8.1
+2021-04-08T07:17:01.106Z - info: Using extension freeze@local:/home/nissi/Desktop/payslip/node_modules/jsreport-freeze:2.0.0
+2021-04-08T07:17:01.108Z - info: Using extension handlebars@local:/home/nissi/Desktop/payslip/node_modules/jsreport-handlebars:2.1.0
+2021-04-08T07:17:01.110Z - info: Using extension import-export@local:/home/nissi/Desktop/payslip/node_modules/jsreport-import-export:2.1.1
+2021-04-08T07:17:01.148Z - info: Using extension jsrender@local:/home/nissi/Desktop/payslip/node_modules/jsreport-jsrender:2.1.1
+2021-04-08T07:17:01.149Z - info: Using extension tags@local:/home/nissi/Desktop/payslip/node_modules/jsreport-tags:2.5.0
+2021-04-08T07:17:01.152Z - info: Using extension templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-templates:2.4.0
+2021-04-08T07:17:01.155Z - info: Using extension authorization@local:/home/nissi/Desktop/payslip/node_modules/jsreport-authorization:2.4.0
+2021-04-08T07:17:01.158Z - info: Using extension base@local:/home/nissi/Desktop/payslip/node_modules/jsreport-base:2.0.2
+2021-04-08T07:17:01.160Z - info: Using extension browser-client@local:/home/nissi/Desktop/payslip/node_modules/jsreport-browser-client:2.2.2
+2021-04-08T07:17:01.162Z - info: Using extension child-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-child-templates:1.4.0
+2021-04-08T07:17:01.167Z - info: Using extension chrome-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-chrome-pdf:1.10.0
+2021-04-08T07:17:01.250Z - info: Using extension data@local:/home/nissi/Desktop/payslip/node_modules/jsreport-data:2.4.0
+2021-04-08T07:17:01.251Z - info: Using extension docx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-docx:2.9.0
+2021-04-08T07:17:01.256Z - info: Using extension fs-store@local:/home/nissi/Desktop/payslip/node_modules/jsreport-fs-store:2.9.1
+2021-04-08T07:17:01.370Z - info: Using extension licensing@local:/home/nissi/Desktop/payslip/node_modules/jsreport-licensing:2.2.3
+2021-04-08T07:17:01.373Z - info: Using extension pdf-utils@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pdf-utils:1.10.1
+2021-04-08T07:17:01.459Z - info: Using extension pptx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pptx:0.7.0
+2021-04-08T07:17:01.465Z - info: Using extension reports@local:/home/nissi/Desktop/payslip/node_modules/jsreport-reports:2.5.1
+2021-04-08T07:17:01.468Z - info: Using extension static-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-static-pdf:0.4.0
+2021-04-08T07:17:01.471Z - info: Using extension studio@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio:2.10.1
+2021-04-08T07:17:01.543Z - info: Using extension text@local:/home/nissi/Desktop/payslip/node_modules/jsreport-text:2.0.0
+2021-04-08T07:17:01.543Z - info: Using extension version-control@local:/home/nissi/Desktop/payslip/node_modules/jsreport-version-control:1.6.0
+2021-04-08T07:17:01.607Z - info: Using extension assets@local:/home/nissi/Desktop/payslip/node_modules/jsreport-assets:1.7.0
+2021-04-08T07:17:01.620Z - info: Using extension html-to-xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-html-to-xlsx:2.8.3
+2021-04-08T07:17:01.924Z - info: html-to-xlsx detected chrome as available html engine
+2021-04-08T07:17:01.925Z - info: Using extension scheduling@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scheduling:2.5.0
+2021-04-08T07:17:01.943Z - info: Using extension scripts@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scripts:2.6.0
+2021-04-08T07:17:01.947Z - info: Using extension studio-theme-dark@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio-theme-dark:0.3.0
+2021-04-08T07:17:01.948Z - info: Using extension xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-xlsx:2.5.0
+2021-04-08T07:17:02.066Z - info: Using extension public-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-public-templates:2.2.0
+2021-04-08T07:17:02.071Z - info: Using extension resources@local:/home/nissi/Desktop/payslip/node_modules/jsreport-resources:2.1.0
+2021-04-08T07:17:02.072Z - info: Using extension sample-template@local:/home/nissi/Desktop/payslip/node_modules/jsreport-sample-template:2.6.1
+2021-04-08T07:17:02.075Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-04-08T07:17:02.076Z - info: Using fs provider for template store.
+2021-04-08T07:17:02.090Z - info: fs store is persisting using fs
+2021-04-08T07:17:02.091Z - info: fs store is synchronizing using fs
+2021-04-08T07:17:02.153Z - info: fs store is loading data
+2021-04-08T07:17:02.296Z - info: fs store is initialized successfully
+2021-04-08T07:17:02.321Z - info: Creating default express app.
+2021-04-08T07:17:02.344Z - info: jsreport server successfully started on http port: 3004
+2021-04-08T07:17:02.345Z - info: fs store emits sockets to synchronize underlying changes with studio
+2021-04-08T07:17:02.365Z - info: Verifying license key free
+2021-04-08T07:17:02.368Z - info: Using free license
+2021-04-08T07:17:02.376Z - info: reporter initialized
+2021-04-08T07:17:05.163Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-04-08T07:17:05.164Z - info: Searching for available extensions in /home/nissi/Desktop/payslip/
+2021-04-08T07:17:05.293Z - info: Extensions location cache contains up to date information, skipping crawling in /home/nissi/Desktop/payslip/
+2021-04-08T07:17:05.310Z - info: Found 35 extensions
+2021-04-08T07:17:05.603Z - info: Setting http-server strategy for rendering
+2021-04-08T07:17:05.819Z - info: Using extension cli@local:/home/nissi/Desktop/payslip/node_modules/jsreport-cli:2.2.5
+2021-04-08T07:17:05.830Z - info: Using extension debug@local:/home/nissi/Desktop/payslip/node_modules/jsreport-debug:2.1.3
+2021-04-08T07:17:05.839Z - info: Using extension express@local:/home/nissi/Desktop/payslip/node_modules/jsreport-express:2.8.1
+2021-04-08T07:17:05.992Z - info: Using extension freeze@local:/home/nissi/Desktop/payslip/node_modules/jsreport-freeze:2.0.0
+2021-04-08T07:17:05.996Z - info: Using extension handlebars@local:/home/nissi/Desktop/payslip/node_modules/jsreport-handlebars:2.1.0
+2021-04-08T07:17:05.999Z - info: Using extension import-export@local:/home/nissi/Desktop/payslip/node_modules/jsreport-import-export:2.1.1
+2021-04-08T07:17:06.057Z - info: Using extension jsrender@local:/home/nissi/Desktop/payslip/node_modules/jsreport-jsrender:2.1.1
+2021-04-08T07:17:06.057Z - info: Using extension tags@local:/home/nissi/Desktop/payslip/node_modules/jsreport-tags:2.5.0
+2021-04-08T07:17:06.060Z - info: Using extension templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-templates:2.4.0
+2021-04-08T07:17:06.062Z - info: Using extension authorization@local:/home/nissi/Desktop/payslip/node_modules/jsreport-authorization:2.4.0
+2021-04-08T07:17:06.067Z - info: Using extension base@local:/home/nissi/Desktop/payslip/node_modules/jsreport-base:2.0.2
+2021-04-08T07:17:06.070Z - info: Using extension browser-client@local:/home/nissi/Desktop/payslip/node_modules/jsreport-browser-client:2.2.2
+2021-04-08T07:17:06.073Z - info: Using extension child-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-child-templates:1.4.0
+2021-04-08T07:17:06.078Z - info: Using extension chrome-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-chrome-pdf:1.10.0
+2021-04-08T07:17:06.227Z - info: Using extension data@local:/home/nissi/Desktop/payslip/node_modules/jsreport-data:2.4.0
+2021-04-08T07:17:06.228Z - info: Using extension docx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-docx:2.9.0
+2021-04-08T07:17:06.236Z - info: Using extension fs-store@local:/home/nissi/Desktop/payslip/node_modules/jsreport-fs-store:2.9.1
+2021-04-08T07:17:06.375Z - info: Using extension licensing@local:/home/nissi/Desktop/payslip/node_modules/jsreport-licensing:2.2.3
+2021-04-08T07:17:06.378Z - info: Using extension pdf-utils@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pdf-utils:1.10.1
+2021-04-08T07:17:06.485Z - info: Using extension pptx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pptx:0.7.0
+2021-04-08T07:17:06.493Z - info: Using extension reports@local:/home/nissi/Desktop/payslip/node_modules/jsreport-reports:2.5.1
+2021-04-08T07:17:06.498Z - info: Using extension static-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-static-pdf:0.4.0
+2021-04-08T07:17:06.502Z - info: Using extension studio@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio:2.10.1
+2021-04-08T07:17:06.588Z - info: Using extension text@local:/home/nissi/Desktop/payslip/node_modules/jsreport-text:2.0.0
+2021-04-08T07:17:06.589Z - info: Using extension version-control@local:/home/nissi/Desktop/payslip/node_modules/jsreport-version-control:1.6.0
+2021-04-08T07:17:06.657Z - info: Using extension assets@local:/home/nissi/Desktop/payslip/node_modules/jsreport-assets:1.7.0
+2021-04-08T07:17:06.672Z - info: Using extension html-to-xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-html-to-xlsx:2.8.3
+2021-04-08T07:17:06.935Z - info: html-to-xlsx detected chrome as available html engine
+2021-04-08T07:17:06.935Z - info: Using extension scheduling@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scheduling:2.5.0
+2021-04-08T07:17:06.951Z - info: Using extension scripts@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scripts:2.6.0
+2021-04-08T07:17:06.955Z - info: Using extension studio-theme-dark@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio-theme-dark:0.3.0
+2021-04-08T07:17:06.955Z - info: Using extension xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-xlsx:2.5.0
+2021-04-08T07:17:07.063Z - info: Using extension public-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-public-templates:2.2.0
+2021-04-08T07:17:07.066Z - info: Using extension resources@local:/home/nissi/Desktop/payslip/node_modules/jsreport-resources:2.1.0
+2021-04-08T07:17:07.067Z - info: Using extension sample-template@local:/home/nissi/Desktop/payslip/node_modules/jsreport-sample-template:2.6.1
+2021-04-08T07:17:07.069Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-04-08T07:17:07.070Z - info: Using fs provider for template store.
+2021-04-08T07:17:07.081Z - info: fs store is persisting using fs
+2021-04-08T07:17:07.082Z - info: fs store is synchronizing using fs
+2021-04-08T07:17:07.113Z - info: fs store is loading data
+2021-04-08T07:17:07.204Z - info: fs store is initialized successfully
+2021-04-08T07:17:07.225Z - info: Creating default express app.
+2021-04-08T07:17:07.246Z - info: jsreport server successfully started on http port: 3004
+2021-04-08T07:17:07.247Z - info: fs store emits sockets to synchronize underlying changes with studio
+2021-04-08T07:17:07.262Z - info: Verifying license key free
+2021-04-08T07:17:07.263Z - info: Using free license
+2021-04-08T07:17:07.274Z - info: reporter initialized
+2021-04-08T07:17:16.958Z - info: Starting rendering request 1 (user: null)
+2021-04-08T07:17:16.975Z - info: Rendering template { name: paySlip, recipe: chrome-pdf, engine: handlebars, preview: false }
+2021-04-08T07:17:18.379Z - info: Rendering request 1 finished in 1420 ms
+2021-04-08T07:19:24.998Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-04-08T07:19:24.999Z - info: Searching for available extensions in /home/nissi/Desktop/payslip/
+2021-04-08T07:19:25.096Z - info: Extensions location cache contains up to date information, skipping crawling in /home/nissi/Desktop/payslip/
+2021-04-08T07:19:25.112Z - info: Found 35 extensions
+2021-04-08T07:19:25.380Z - info: Setting http-server strategy for rendering
+2021-04-08T07:19:25.562Z - info: Using extension cli@local:/home/nissi/Desktop/payslip/node_modules/jsreport-cli:2.2.5
+2021-04-08T07:19:25.573Z - info: Using extension debug@local:/home/nissi/Desktop/payslip/node_modules/jsreport-debug:2.1.3
+2021-04-08T07:19:25.579Z - info: Using extension express@local:/home/nissi/Desktop/payslip/node_modules/jsreport-express:2.8.1
+2021-04-08T07:19:25.691Z - info: Using extension freeze@local:/home/nissi/Desktop/payslip/node_modules/jsreport-freeze:2.0.0
+2021-04-08T07:19:25.693Z - info: Using extension handlebars@local:/home/nissi/Desktop/payslip/node_modules/jsreport-handlebars:2.1.0
+2021-04-08T07:19:25.695Z - info: Using extension import-export@local:/home/nissi/Desktop/payslip/node_modules/jsreport-import-export:2.1.1
+2021-04-08T07:19:25.732Z - info: Using extension jsrender@local:/home/nissi/Desktop/payslip/node_modules/jsreport-jsrender:2.1.1
+2021-04-08T07:19:25.733Z - info: Using extension tags@local:/home/nissi/Desktop/payslip/node_modules/jsreport-tags:2.5.0
+2021-04-08T07:19:25.735Z - info: Using extension templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-templates:2.4.0
+2021-04-08T07:19:25.737Z - info: Using extension authorization@local:/home/nissi/Desktop/payslip/node_modules/jsreport-authorization:2.4.0
+2021-04-08T07:19:25.740Z - info: Using extension base@local:/home/nissi/Desktop/payslip/node_modules/jsreport-base:2.0.2
+2021-04-08T07:19:25.742Z - info: Using extension browser-client@local:/home/nissi/Desktop/payslip/node_modules/jsreport-browser-client:2.2.2
+2021-04-08T07:19:25.744Z - info: Using extension child-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-child-templates:1.4.0
+2021-04-08T07:19:25.748Z - info: Using extension chrome-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-chrome-pdf:1.10.0
+2021-04-08T07:19:25.836Z - info: Using extension data@local:/home/nissi/Desktop/payslip/node_modules/jsreport-data:2.4.0
+2021-04-08T07:19:25.837Z - info: Using extension docx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-docx:2.9.0
+2021-04-08T07:19:25.848Z - info: Using extension fs-store@local:/home/nissi/Desktop/payslip/node_modules/jsreport-fs-store:2.9.1
+2021-04-08T07:19:25.967Z - info: Using extension licensing@local:/home/nissi/Desktop/payslip/node_modules/jsreport-licensing:2.2.3
+2021-04-08T07:19:25.970Z - info: Using extension pdf-utils@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pdf-utils:1.10.1
+2021-04-08T07:19:26.063Z - info: Using extension pptx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pptx:0.7.0
+2021-04-08T07:19:26.070Z - info: Using extension reports@local:/home/nissi/Desktop/payslip/node_modules/jsreport-reports:2.5.1
+2021-04-08T07:19:26.075Z - info: Using extension static-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-static-pdf:0.4.0
+2021-04-08T07:19:26.078Z - info: Using extension studio@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio:2.10.1
+2021-04-08T07:19:26.155Z - info: Using extension text@local:/home/nissi/Desktop/payslip/node_modules/jsreport-text:2.0.0
+2021-04-08T07:19:26.156Z - info: Using extension version-control@local:/home/nissi/Desktop/payslip/node_modules/jsreport-version-control:1.6.0
+2021-04-08T07:19:26.224Z - info: Using extension assets@local:/home/nissi/Desktop/payslip/node_modules/jsreport-assets:1.7.0
+2021-04-08T07:19:26.238Z - info: Using extension html-to-xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-html-to-xlsx:2.8.3
+2021-04-08T07:19:26.561Z - info: html-to-xlsx detected chrome as available html engine
+2021-04-08T07:19:26.561Z - info: Using extension scheduling@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scheduling:2.5.0
+2021-04-08T07:19:26.574Z - info: Using extension scripts@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scripts:2.6.0
+2021-04-08T07:19:26.577Z - info: Using extension studio-theme-dark@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio-theme-dark:0.3.0
+2021-04-08T07:19:26.578Z - info: Using extension xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-xlsx:2.5.0
+2021-04-08T07:19:26.672Z - info: Using extension public-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-public-templates:2.2.0
+2021-04-08T07:19:26.674Z - info: Using extension resources@local:/home/nissi/Desktop/payslip/node_modules/jsreport-resources:2.1.0
+2021-04-08T07:19:26.675Z - info: Using extension sample-template@local:/home/nissi/Desktop/payslip/node_modules/jsreport-sample-template:2.6.1
+2021-04-08T07:19:26.677Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-04-08T07:19:26.677Z - info: Using fs provider for template store.
+2021-04-08T07:19:26.684Z - info: fs store is persisting using fs
+2021-04-08T07:19:26.686Z - info: fs store is synchronizing using fs
+2021-04-08T07:19:26.702Z - info: fs store is loading data
+2021-04-08T07:19:26.784Z - info: fs store is initialized successfully
+2021-04-08T07:19:26.803Z - info: Creating default express app.
+2021-04-08T07:19:26.819Z - info: jsreport server successfully started on http port: 3004
+2021-04-08T07:19:26.820Z - info: fs store emits sockets to synchronize underlying changes with studio
+2021-04-08T07:19:26.833Z - info: Verifying license key free
+2021-04-08T07:19:26.835Z - info: Using free license
+2021-04-08T07:19:26.841Z - info: reporter initialized
+2021-04-08T07:20:01.270Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-04-08T07:20:01.272Z - info: Searching for available extensions in /home/nissi/Desktop/payslip/
+2021-04-08T07:20:01.415Z - info: Extensions location cache contains up to date information, skipping crawling in /home/nissi/Desktop/payslip/
+2021-04-08T07:20:01.432Z - info: Found 35 extensions
+2021-04-08T07:20:01.837Z - info: Setting http-server strategy for rendering
+2021-04-08T07:20:02.068Z - info: Using extension cli@local:/home/nissi/Desktop/payslip/node_modules/jsreport-cli:2.2.5
+2021-04-08T07:20:02.077Z - info: Using extension debug@local:/home/nissi/Desktop/payslip/node_modules/jsreport-debug:2.1.3
+2021-04-08T07:20:02.082Z - info: Using extension express@local:/home/nissi/Desktop/payslip/node_modules/jsreport-express:2.8.1
+2021-04-08T07:20:02.177Z - info: Using extension freeze@local:/home/nissi/Desktop/payslip/node_modules/jsreport-freeze:2.0.0
+2021-04-08T07:20:02.179Z - info: Using extension handlebars@local:/home/nissi/Desktop/payslip/node_modules/jsreport-handlebars:2.1.0
+2021-04-08T07:20:02.181Z - info: Using extension import-export@local:/home/nissi/Desktop/payslip/node_modules/jsreport-import-export:2.1.1
+2021-04-08T07:20:02.217Z - info: Using extension jsrender@local:/home/nissi/Desktop/payslip/node_modules/jsreport-jsrender:2.1.1
+2021-04-08T07:20:02.217Z - info: Using extension tags@local:/home/nissi/Desktop/payslip/node_modules/jsreport-tags:2.5.0
+2021-04-08T07:20:02.219Z - info: Using extension templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-templates:2.4.0
+2021-04-08T07:20:02.222Z - info: Using extension authorization@local:/home/nissi/Desktop/payslip/node_modules/jsreport-authorization:2.4.0
+2021-04-08T07:20:02.224Z - info: Using extension base@local:/home/nissi/Desktop/payslip/node_modules/jsreport-base:2.0.2
+2021-04-08T07:20:02.226Z - info: Using extension browser-client@local:/home/nissi/Desktop/payslip/node_modules/jsreport-browser-client:2.2.2
+2021-04-08T07:20:02.228Z - info: Using extension child-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-child-templates:1.4.0
+2021-04-08T07:20:02.232Z - info: Using extension chrome-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-chrome-pdf:1.10.0
+2021-04-08T07:20:02.319Z - info: Using extension data@local:/home/nissi/Desktop/payslip/node_modules/jsreport-data:2.4.0
+2021-04-08T07:20:02.321Z - info: Using extension docx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-docx:2.9.0
+2021-04-08T07:20:02.324Z - info: Using extension fs-store@local:/home/nissi/Desktop/payslip/node_modules/jsreport-fs-store:2.9.1
+2021-04-08T07:20:02.435Z - info: Using extension licensing@local:/home/nissi/Desktop/payslip/node_modules/jsreport-licensing:2.2.3
+2021-04-08T07:20:02.439Z - info: Using extension pdf-utils@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pdf-utils:1.10.1
+2021-04-08T07:20:02.530Z - info: Using extension pptx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pptx:0.7.0
+2021-04-08T07:20:02.535Z - info: Using extension reports@local:/home/nissi/Desktop/payslip/node_modules/jsreport-reports:2.5.1
+2021-04-08T07:20:02.539Z - info: Using extension static-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-static-pdf:0.4.0
+2021-04-08T07:20:02.543Z - info: Using extension studio@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio:2.10.1
+2021-04-08T07:20:02.638Z - info: Using extension text@local:/home/nissi/Desktop/payslip/node_modules/jsreport-text:2.0.0
+2021-04-08T07:20:02.639Z - info: Using extension version-control@local:/home/nissi/Desktop/payslip/node_modules/jsreport-version-control:1.6.0
+2021-04-08T07:20:02.705Z - info: Using extension assets@local:/home/nissi/Desktop/payslip/node_modules/jsreport-assets:1.7.0
+2021-04-08T07:20:02.722Z - info: Using extension html-to-xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-html-to-xlsx:2.8.3
+2021-04-08T07:20:02.975Z - info: html-to-xlsx detected chrome as available html engine
+2021-04-08T07:20:02.976Z - info: Using extension scheduling@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scheduling:2.5.0
+2021-04-08T07:20:02.993Z - info: Using extension scripts@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scripts:2.6.0
+2021-04-08T07:20:02.998Z - info: Using extension studio-theme-dark@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio-theme-dark:0.3.0
+2021-04-08T07:20:02.999Z - info: Using extension xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-xlsx:2.5.0
+2021-04-08T07:20:03.103Z - info: Using extension public-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-public-templates:2.2.0
+2021-04-08T07:20:03.105Z - info: Using extension resources@local:/home/nissi/Desktop/payslip/node_modules/jsreport-resources:2.1.0
+2021-04-08T07:20:03.106Z - info: Using extension sample-template@local:/home/nissi/Desktop/payslip/node_modules/jsreport-sample-template:2.6.1
+2021-04-08T07:20:03.108Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-04-08T07:20:03.108Z - info: Using fs provider for template store.
+2021-04-08T07:20:03.116Z - info: fs store is persisting using fs
+2021-04-08T07:20:03.118Z - info: fs store is synchronizing using fs
+2021-04-08T07:20:03.150Z - info: fs store is loading data
+2021-04-08T07:20:03.227Z - info: fs store is initialized successfully
+2021-04-08T07:20:03.245Z - info: Creating default express app.
+2021-04-08T07:20:03.260Z - info: jsreport server successfully started on http port: 3004
+2021-04-08T07:20:03.261Z - info: fs store emits sockets to synchronize underlying changes with studio
+2021-04-08T07:20:03.273Z - info: Verifying license key free
+2021-04-08T07:20:03.274Z - info: Using free license
+2021-04-08T07:20:03.280Z - info: reporter initialized
+2021-04-08T07:20:15.077Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-04-08T07:20:15.078Z - info: Searching for available extensions in /home/nissi/Desktop/payslip/
+2021-04-08T07:20:15.232Z - info: Extensions location cache contains up to date information, skipping crawling in /home/nissi/Desktop/payslip/
+2021-04-08T07:20:15.250Z - info: Found 35 extensions
+2021-04-08T07:20:15.493Z - info: Setting http-server strategy for rendering
+2021-04-08T07:20:15.680Z - info: Using extension cli@local:/home/nissi/Desktop/payslip/node_modules/jsreport-cli:2.2.5
+2021-04-08T07:20:15.690Z - info: Using extension debug@local:/home/nissi/Desktop/payslip/node_modules/jsreport-debug:2.1.3
+2021-04-08T07:20:15.696Z - info: Using extension express@local:/home/nissi/Desktop/payslip/node_modules/jsreport-express:2.8.1
+2021-04-08T07:20:15.804Z - info: Using extension freeze@local:/home/nissi/Desktop/payslip/node_modules/jsreport-freeze:2.0.0
+2021-04-08T07:20:15.806Z - info: Using extension handlebars@local:/home/nissi/Desktop/payslip/node_modules/jsreport-handlebars:2.1.0
+2021-04-08T07:20:15.809Z - info: Using extension import-export@local:/home/nissi/Desktop/payslip/node_modules/jsreport-import-export:2.1.1
+2021-04-08T07:20:15.847Z - info: Using extension jsrender@local:/home/nissi/Desktop/payslip/node_modules/jsreport-jsrender:2.1.1
+2021-04-08T07:20:15.848Z - info: Using extension tags@local:/home/nissi/Desktop/payslip/node_modules/jsreport-tags:2.5.0
+2021-04-08T07:20:15.850Z - info: Using extension templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-templates:2.4.0
+2021-04-08T07:20:15.852Z - info: Using extension authorization@local:/home/nissi/Desktop/payslip/node_modules/jsreport-authorization:2.4.0
+2021-04-08T07:20:15.855Z - info: Using extension base@local:/home/nissi/Desktop/payslip/node_modules/jsreport-base:2.0.2
+2021-04-08T07:20:15.857Z - info: Using extension browser-client@local:/home/nissi/Desktop/payslip/node_modules/jsreport-browser-client:2.2.2
+2021-04-08T07:20:15.859Z - info: Using extension child-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-child-templates:1.4.0
+2021-04-08T07:20:15.863Z - info: Using extension chrome-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-chrome-pdf:1.10.0
+2021-04-08T07:20:15.952Z - info: Using extension data@local:/home/nissi/Desktop/payslip/node_modules/jsreport-data:2.4.0
+2021-04-08T07:20:15.953Z - info: Using extension docx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-docx:2.9.0
+2021-04-08T07:20:15.957Z - info: Using extension fs-store@local:/home/nissi/Desktop/payslip/node_modules/jsreport-fs-store:2.9.1
+2021-04-08T07:20:16.066Z - info: Using extension licensing@local:/home/nissi/Desktop/payslip/node_modules/jsreport-licensing:2.2.3
+2021-04-08T07:20:16.069Z - info: Using extension pdf-utils@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pdf-utils:1.10.1
+2021-04-08T07:20:16.159Z - info: Using extension pptx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pptx:0.7.0
+2021-04-08T07:20:16.166Z - info: Using extension reports@local:/home/nissi/Desktop/payslip/node_modules/jsreport-reports:2.5.1
+2021-04-08T07:20:16.171Z - info: Using extension static-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-static-pdf:0.4.0
+2021-04-08T07:20:16.174Z - info: Using extension studio@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio:2.10.1
+2021-04-08T07:20:16.243Z - info: Using extension text@local:/home/nissi/Desktop/payslip/node_modules/jsreport-text:2.0.0
+2021-04-08T07:20:16.244Z - info: Using extension version-control@local:/home/nissi/Desktop/payslip/node_modules/jsreport-version-control:1.6.0
+2021-04-08T07:20:16.302Z - info: Using extension assets@local:/home/nissi/Desktop/payslip/node_modules/jsreport-assets:1.7.0
+2021-04-08T07:20:16.317Z - info: Using extension html-to-xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-html-to-xlsx:2.8.3
+2021-04-08T07:20:16.568Z - info: html-to-xlsx detected chrome as available html engine
+2021-04-08T07:20:16.569Z - info: Using extension scheduling@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scheduling:2.5.0
+2021-04-08T07:20:16.584Z - info: Using extension scripts@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scripts:2.6.0
+2021-04-08T07:20:16.587Z - info: Using extension studio-theme-dark@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio-theme-dark:0.3.0
+2021-04-08T07:20:16.588Z - info: Using extension xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-xlsx:2.5.0
+2021-04-08T07:20:16.705Z - info: Using extension public-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-public-templates:2.2.0
+2021-04-08T07:20:16.709Z - info: Using extension resources@local:/home/nissi/Desktop/payslip/node_modules/jsreport-resources:2.1.0
+2021-04-08T07:20:16.710Z - info: Using extension sample-template@local:/home/nissi/Desktop/payslip/node_modules/jsreport-sample-template:2.6.1
+2021-04-08T07:20:16.713Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-04-08T07:20:16.713Z - info: Using fs provider for template store.
+2021-04-08T07:20:16.724Z - info: fs store is persisting using fs
+2021-04-08T07:20:16.725Z - info: fs store is synchronizing using fs
+2021-04-08T07:20:16.761Z - info: fs store is loading data
+2021-04-08T07:20:16.847Z - info: fs store is initialized successfully
+2021-04-08T07:20:16.870Z - info: Creating default express app.
+2021-04-08T07:20:16.887Z - info: jsreport server successfully started on http port: 3004
+2021-04-08T07:20:16.887Z - info: fs store emits sockets to synchronize underlying changes with studio
+2021-04-08T07:20:16.903Z - info: Verifying license key free
+2021-04-08T07:20:16.904Z - info: Using free license
+2021-04-08T07:20:16.916Z - info: reporter initialized
+2021-04-08T07:20:20.247Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-04-08T07:20:20.249Z - info: Searching for available extensions in /home/nissi/Desktop/payslip/
+2021-04-08T07:20:20.429Z - info: Extensions location cache contains up to date information, skipping crawling in /home/nissi/Desktop/payslip/
+2021-04-08T07:20:20.456Z - info: Found 35 extensions
+2021-04-08T07:20:20.761Z - info: Setting http-server strategy for rendering
+2021-04-08T07:20:20.993Z - info: Using extension cli@local:/home/nissi/Desktop/payslip/node_modules/jsreport-cli:2.2.5
+2021-04-08T07:20:21.006Z - info: Using extension debug@local:/home/nissi/Desktop/payslip/node_modules/jsreport-debug:2.1.3
+2021-04-08T07:20:21.012Z - info: Using extension express@local:/home/nissi/Desktop/payslip/node_modules/jsreport-express:2.8.1
+2021-04-08T07:20:21.150Z - info: Using extension freeze@local:/home/nissi/Desktop/payslip/node_modules/jsreport-freeze:2.0.0
+2021-04-08T07:20:21.152Z - info: Using extension handlebars@local:/home/nissi/Desktop/payslip/node_modules/jsreport-handlebars:2.1.0
+2021-04-08T07:20:21.155Z - info: Using extension import-export@local:/home/nissi/Desktop/payslip/node_modules/jsreport-import-export:2.1.1
+2021-04-08T07:20:21.201Z - info: Using extension jsrender@local:/home/nissi/Desktop/payslip/node_modules/jsreport-jsrender:2.1.1
+2021-04-08T07:20:21.202Z - info: Using extension tags@local:/home/nissi/Desktop/payslip/node_modules/jsreport-tags:2.5.0
+2021-04-08T07:20:21.204Z - info: Using extension templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-templates:2.4.0
+2021-04-08T07:20:21.207Z - info: Using extension authorization@local:/home/nissi/Desktop/payslip/node_modules/jsreport-authorization:2.4.0
+2021-04-08T07:20:21.211Z - info: Using extension base@local:/home/nissi/Desktop/payslip/node_modules/jsreport-base:2.0.2
+2021-04-08T07:20:21.214Z - info: Using extension browser-client@local:/home/nissi/Desktop/payslip/node_modules/jsreport-browser-client:2.2.2
+2021-04-08T07:20:21.217Z - info: Using extension child-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-child-templates:1.4.0
+2021-04-08T07:20:21.221Z - info: Using extension chrome-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-chrome-pdf:1.10.0
+2021-04-08T07:20:21.309Z - info: Using extension data@local:/home/nissi/Desktop/payslip/node_modules/jsreport-data:2.4.0
+2021-04-08T07:20:21.310Z - info: Using extension docx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-docx:2.9.0
+2021-04-08T07:20:21.326Z - info: Using extension fs-store@local:/home/nissi/Desktop/payslip/node_modules/jsreport-fs-store:2.9.1
+2021-04-08T07:20:21.447Z - info: Using extension licensing@local:/home/nissi/Desktop/payslip/node_modules/jsreport-licensing:2.2.3
+2021-04-08T07:20:21.450Z - info: Using extension pdf-utils@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pdf-utils:1.10.1
+2021-04-08T07:20:21.538Z - info: Using extension pptx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pptx:0.7.0
+2021-04-08T07:20:21.545Z - info: Using extension reports@local:/home/nissi/Desktop/payslip/node_modules/jsreport-reports:2.5.1
+2021-04-08T07:20:21.550Z - info: Using extension static-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-static-pdf:0.4.0
+2021-04-08T07:20:21.553Z - info: Using extension studio@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio:2.10.1
+2021-04-08T07:20:21.620Z - info: Using extension text@local:/home/nissi/Desktop/payslip/node_modules/jsreport-text:2.0.0
+2021-04-08T07:20:21.621Z - info: Using extension version-control@local:/home/nissi/Desktop/payslip/node_modules/jsreport-version-control:1.6.0
+2021-04-08T07:20:21.681Z - info: Using extension assets@local:/home/nissi/Desktop/payslip/node_modules/jsreport-assets:1.7.0
+2021-04-08T07:20:21.697Z - info: Using extension html-to-xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-html-to-xlsx:2.8.3
+2021-04-08T07:20:21.938Z - info: html-to-xlsx detected chrome as available html engine
+2021-04-08T07:20:21.939Z - info: Using extension scheduling@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scheduling:2.5.0
+2021-04-08T07:20:21.956Z - info: Using extension scripts@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scripts:2.6.0
+2021-04-08T07:20:21.959Z - info: Using extension studio-theme-dark@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio-theme-dark:0.3.0
+2021-04-08T07:20:21.959Z - info: Using extension xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-xlsx:2.5.0
+2021-04-08T07:20:22.071Z - info: Using extension public-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-public-templates:2.2.0
+2021-04-08T07:20:22.074Z - info: Using extension resources@local:/home/nissi/Desktop/payslip/node_modules/jsreport-resources:2.1.0
+2021-04-08T07:20:22.075Z - info: Using extension sample-template@local:/home/nissi/Desktop/payslip/node_modules/jsreport-sample-template:2.6.1
+2021-04-08T07:20:22.077Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-04-08T07:20:22.077Z - info: Using fs provider for template store.
+2021-04-08T07:20:22.088Z - info: fs store is persisting using fs
+2021-04-08T07:20:22.089Z - info: fs store is synchronizing using fs
+2021-04-08T07:20:22.123Z - info: fs store is loading data
+2021-04-08T07:20:22.214Z - info: fs store is initialized successfully
+2021-04-08T07:20:22.234Z - info: Creating default express app.
+2021-04-08T07:20:22.251Z - info: jsreport server successfully started on http port: 3004
+2021-04-08T07:20:22.252Z - info: fs store emits sockets to synchronize underlying changes with studio
+2021-04-08T07:20:22.267Z - info: Verifying license key free
+2021-04-08T07:20:22.268Z - info: Using free license
+2021-04-08T07:20:22.279Z - info: reporter initialized
+2021-04-08T07:20:44.525Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-04-08T07:20:44.527Z - info: Searching for available extensions in /home/nissi/Desktop/payslip/
+2021-04-08T07:20:44.654Z - info: Extensions location cache contains up to date information, skipping crawling in /home/nissi/Desktop/payslip/
+2021-04-08T07:20:44.673Z - info: Found 35 extensions
+2021-04-08T07:20:44.945Z - info: Setting http-server strategy for rendering
+2021-04-08T07:20:45.156Z - info: Using extension cli@local:/home/nissi/Desktop/payslip/node_modules/jsreport-cli:2.2.5
+2021-04-08T07:20:45.167Z - info: Using extension debug@local:/home/nissi/Desktop/payslip/node_modules/jsreport-debug:2.1.3
+2021-04-08T07:20:45.173Z - info: Using extension express@local:/home/nissi/Desktop/payslip/node_modules/jsreport-express:2.8.1
+2021-04-08T07:20:45.286Z - info: Using extension freeze@local:/home/nissi/Desktop/payslip/node_modules/jsreport-freeze:2.0.0
+2021-04-08T07:20:45.288Z - info: Using extension handlebars@local:/home/nissi/Desktop/payslip/node_modules/jsreport-handlebars:2.1.0
+2021-04-08T07:20:45.291Z - info: Using extension import-export@local:/home/nissi/Desktop/payslip/node_modules/jsreport-import-export:2.1.1
+2021-04-08T07:20:45.333Z - info: Using extension jsrender@local:/home/nissi/Desktop/payslip/node_modules/jsreport-jsrender:2.1.1
+2021-04-08T07:20:45.334Z - info: Using extension tags@local:/home/nissi/Desktop/payslip/node_modules/jsreport-tags:2.5.0
+2021-04-08T07:20:45.337Z - info: Using extension templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-templates:2.4.0
+2021-04-08T07:20:45.339Z - info: Using extension authorization@local:/home/nissi/Desktop/payslip/node_modules/jsreport-authorization:2.4.0
+2021-04-08T07:20:45.342Z - info: Using extension base@local:/home/nissi/Desktop/payslip/node_modules/jsreport-base:2.0.2
+2021-04-08T07:20:45.344Z - info: Using extension browser-client@local:/home/nissi/Desktop/payslip/node_modules/jsreport-browser-client:2.2.2
+2021-04-08T07:20:45.347Z - info: Using extension child-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-child-templates:1.4.0
+2021-04-08T07:20:45.351Z - info: Using extension chrome-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-chrome-pdf:1.10.0
+2021-04-08T07:20:45.514Z - info: Using extension data@local:/home/nissi/Desktop/payslip/node_modules/jsreport-data:2.4.0
+2021-04-08T07:20:45.515Z - info: Using extension docx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-docx:2.9.0
+2021-04-08T07:20:45.519Z - info: Using extension fs-store@local:/home/nissi/Desktop/payslip/node_modules/jsreport-fs-store:2.9.1
+2021-04-08T07:20:45.622Z - info: Using extension licensing@local:/home/nissi/Desktop/payslip/node_modules/jsreport-licensing:2.2.3
+2021-04-08T07:20:45.625Z - info: Using extension pdf-utils@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pdf-utils:1.10.1
+2021-04-08T07:20:45.711Z - info: Using extension pptx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pptx:0.7.0
+2021-04-08T07:20:45.718Z - info: Using extension reports@local:/home/nissi/Desktop/payslip/node_modules/jsreport-reports:2.5.1
+2021-04-08T07:20:45.722Z - info: Using extension static-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-static-pdf:0.4.0
+2021-04-08T07:20:45.724Z - info: Using extension studio@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio:2.10.1
+2021-04-08T07:20:45.798Z - info: Using extension text@local:/home/nissi/Desktop/payslip/node_modules/jsreport-text:2.0.0
+2021-04-08T07:20:45.800Z - info: Using extension version-control@local:/home/nissi/Desktop/payslip/node_modules/jsreport-version-control:1.6.0
+2021-04-08T07:20:45.877Z - info: Using extension assets@local:/home/nissi/Desktop/payslip/node_modules/jsreport-assets:1.7.0
+2021-04-08T07:20:45.895Z - info: Using extension html-to-xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-html-to-xlsx:2.8.3
+2021-04-08T07:20:46.262Z - info: html-to-xlsx detected chrome as available html engine
+2021-04-08T07:20:46.262Z - info: Using extension scheduling@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scheduling:2.5.0
+2021-04-08T07:20:46.281Z - info: Using extension scripts@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scripts:2.6.0
+2021-04-08T07:20:46.286Z - info: Using extension studio-theme-dark@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio-theme-dark:0.3.0
+2021-04-08T07:20:46.287Z - info: Using extension xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-xlsx:2.5.0
+2021-04-08T07:20:46.419Z - info: Using extension public-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-public-templates:2.2.0
+2021-04-08T07:20:46.422Z - info: Using extension resources@local:/home/nissi/Desktop/payslip/node_modules/jsreport-resources:2.1.0
+2021-04-08T07:20:46.423Z - info: Using extension sample-template@local:/home/nissi/Desktop/payslip/node_modules/jsreport-sample-template:2.6.1
+2021-04-08T07:20:46.426Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-04-08T07:20:46.426Z - info: Using fs provider for template store.
+2021-04-08T07:20:46.444Z - info: fs store is persisting using fs
+2021-04-08T07:20:46.446Z - info: fs store is synchronizing using fs
+2021-04-08T07:20:46.477Z - info: fs store is loading data
+2021-04-08T07:20:46.593Z - info: fs store is initialized successfully
+2021-04-08T07:20:46.620Z - info: Creating default express app.
+2021-04-08T07:20:46.644Z - info: jsreport server successfully started on http port: 3004
+2021-04-08T07:20:46.645Z - info: fs store emits sockets to synchronize underlying changes with studio
+2021-04-08T07:20:46.663Z - info: Verifying license key free
+2021-04-08T07:20:46.666Z - info: Using free license
+2021-04-08T07:20:46.675Z - info: reporter initialized
+2021-04-08T07:21:42.203Z - info: Starting rendering request 1 (user: null)
+2021-04-08T07:21:42.207Z - info: Rendering template { name: paySlip, recipe: chrome-pdf, engine: handlebars, preview: true }
+2021-04-08T07:21:43.566Z - info: Rendering request 1 finished in 1363 ms
+2021-04-08T07:21:52.740Z - info: Starting rendering request 2 (user: null)
+2021-04-08T07:21:52.749Z - info: Rendering template { name: paySlip, recipe: chrome-pdf, engine: handlebars, preview: false }
+2021-04-08T07:21:53.956Z - info: Rendering request 2 finished in 1217 ms
+2021-04-08T07:38:25.312Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-04-08T07:38:25.314Z - info: Searching for available extensions in /home/nissi/Desktop/payslip/
+2021-04-08T07:38:25.417Z - info: Extensions location cache contains up to date information, skipping crawling in /home/nissi/Desktop/payslip/
+2021-04-08T07:38:25.434Z - info: Found 35 extensions
+2021-04-08T07:38:25.720Z - info: Setting http-server strategy for rendering
+2021-04-08T07:38:25.896Z - info: Using extension cli@local:/home/nissi/Desktop/payslip/node_modules/jsreport-cli:2.2.5
+2021-04-08T07:38:25.906Z - info: Using extension debug@local:/home/nissi/Desktop/payslip/node_modules/jsreport-debug:2.1.3
+2021-04-08T07:38:25.912Z - info: Using extension express@local:/home/nissi/Desktop/payslip/node_modules/jsreport-express:2.8.1
+2021-04-08T07:38:26.018Z - info: Using extension freeze@local:/home/nissi/Desktop/payslip/node_modules/jsreport-freeze:2.0.0
+2021-04-08T07:38:26.020Z - info: Using extension handlebars@local:/home/nissi/Desktop/payslip/node_modules/jsreport-handlebars:2.1.0
+2021-04-08T07:38:26.023Z - info: Using extension import-export@local:/home/nissi/Desktop/payslip/node_modules/jsreport-import-export:2.1.1
+2021-04-08T07:38:26.063Z - info: Using extension jsrender@local:/home/nissi/Desktop/payslip/node_modules/jsreport-jsrender:2.1.1
+2021-04-08T07:38:26.064Z - info: Using extension tags@local:/home/nissi/Desktop/payslip/node_modules/jsreport-tags:2.5.0
+2021-04-08T07:38:26.066Z - info: Using extension templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-templates:2.4.0
+2021-04-08T07:38:26.069Z - info: Using extension authorization@local:/home/nissi/Desktop/payslip/node_modules/jsreport-authorization:2.4.0
+2021-04-08T07:38:26.072Z - info: Using extension base@local:/home/nissi/Desktop/payslip/node_modules/jsreport-base:2.0.2
+2021-04-08T07:38:26.074Z - info: Using extension browser-client@local:/home/nissi/Desktop/payslip/node_modules/jsreport-browser-client:2.2.2
+2021-04-08T07:38:26.076Z - info: Using extension child-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-child-templates:1.4.0
+2021-04-08T07:38:26.081Z - info: Using extension chrome-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-chrome-pdf:1.10.0
+2021-04-08T07:38:26.173Z - info: Using extension data@local:/home/nissi/Desktop/payslip/node_modules/jsreport-data:2.4.0
+2021-04-08T07:38:26.175Z - info: Using extension docx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-docx:2.9.0
+2021-04-08T07:38:26.180Z - info: Using extension fs-store@local:/home/nissi/Desktop/payslip/node_modules/jsreport-fs-store:2.9.1
+2021-04-08T07:38:26.284Z - info: Using extension licensing@local:/home/nissi/Desktop/payslip/node_modules/jsreport-licensing:2.2.3
+2021-04-08T07:38:26.287Z - info: Using extension pdf-utils@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pdf-utils:1.10.1
+2021-04-08T07:38:26.375Z - info: Using extension pptx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pptx:0.7.0
+2021-04-08T07:38:26.381Z - info: Using extension reports@local:/home/nissi/Desktop/payslip/node_modules/jsreport-reports:2.5.1
+2021-04-08T07:38:26.385Z - info: Using extension static-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-static-pdf:0.4.0
+2021-04-08T07:38:26.388Z - info: Using extension studio@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio:2.10.1
+2021-04-08T07:38:26.454Z - info: Using extension text@local:/home/nissi/Desktop/payslip/node_modules/jsreport-text:2.0.0
+2021-04-08T07:38:26.454Z - info: Using extension version-control@local:/home/nissi/Desktop/payslip/node_modules/jsreport-version-control:1.6.0
+2021-04-08T07:38:26.524Z - info: Using extension assets@local:/home/nissi/Desktop/payslip/node_modules/jsreport-assets:1.7.0
+2021-04-08T07:38:26.537Z - info: Using extension html-to-xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-html-to-xlsx:2.8.3
+2021-04-08T07:38:26.823Z - info: html-to-xlsx detected chrome as available html engine
+2021-04-08T07:38:26.823Z - info: Using extension scheduling@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scheduling:2.5.0
+2021-04-08T07:38:26.842Z - info: Using extension scripts@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scripts:2.6.0
+2021-04-08T07:38:26.846Z - info: Using extension studio-theme-dark@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio-theme-dark:0.3.0
+2021-04-08T07:38:26.847Z - info: Using extension xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-xlsx:2.5.0
+2021-04-08T07:38:26.991Z - info: Using extension public-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-public-templates:2.2.0
+2021-04-08T07:38:26.995Z - info: Using extension resources@local:/home/nissi/Desktop/payslip/node_modules/jsreport-resources:2.1.0
+2021-04-08T07:38:26.996Z - info: Using extension sample-template@local:/home/nissi/Desktop/payslip/node_modules/jsreport-sample-template:2.6.1
+2021-04-08T07:38:26.998Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-04-08T07:38:26.999Z - info: Using fs provider for template store.
+2021-04-08T07:38:27.010Z - info: fs store is persisting using fs
+2021-04-08T07:38:27.012Z - info: fs store is synchronizing using fs
+2021-04-08T07:38:27.033Z - info: fs store is loading data
+2021-04-08T07:38:27.130Z - info: fs store is initialized successfully
+2021-04-08T07:38:27.153Z - info: Creating default express app.
+2021-04-08T07:38:27.173Z - info: jsreport server successfully started on http port: 3004
+2021-04-08T07:38:27.173Z - info: fs store emits sockets to synchronize underlying changes with studio
+2021-04-08T07:38:27.189Z - info: Verifying license key free
+2021-04-08T07:38:27.192Z - info: Using free license
+2021-04-08T07:38:27.202Z - info: reporter initialized
+2021-04-08T07:38:33.535Z - info: Starting rendering request 1 (user: null)
+2021-04-08T07:38:33.557Z - info: Rendering template { name: paySlip, recipe: chrome-pdf, engine: handlebars, preview: false }
+2021-04-08T07:38:35.081Z - info: Rendering request 1 finished in 1547 ms
+2021-04-08T07:39:37.511Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-04-08T07:39:37.512Z - info: Searching for available extensions in /home/nissi/Desktop/payslip/
+2021-04-08T07:39:37.611Z - info: Extensions location cache contains up to date information, skipping crawling in /home/nissi/Desktop/payslip/
+2021-04-08T07:39:37.628Z - info: Found 35 extensions
+2021-04-08T07:39:38.061Z - info: Setting http-server strategy for rendering
+2021-04-08T07:39:38.269Z - info: Using extension cli@local:/home/nissi/Desktop/payslip/node_modules/jsreport-cli:2.2.5
+2021-04-08T07:39:38.279Z - info: Using extension debug@local:/home/nissi/Desktop/payslip/node_modules/jsreport-debug:2.1.3
+2021-04-08T07:39:38.286Z - info: Using extension express@local:/home/nissi/Desktop/payslip/node_modules/jsreport-express:2.8.1
+2021-04-08T07:39:38.384Z - info: Using extension freeze@local:/home/nissi/Desktop/payslip/node_modules/jsreport-freeze:2.0.0
+2021-04-08T07:39:38.386Z - info: Using extension handlebars@local:/home/nissi/Desktop/payslip/node_modules/jsreport-handlebars:2.1.0
+2021-04-08T07:39:38.388Z - info: Using extension import-export@local:/home/nissi/Desktop/payslip/node_modules/jsreport-import-export:2.1.1
+2021-04-08T07:39:38.428Z - info: Using extension jsrender@local:/home/nissi/Desktop/payslip/node_modules/jsreport-jsrender:2.1.1
+2021-04-08T07:39:38.429Z - info: Using extension tags@local:/home/nissi/Desktop/payslip/node_modules/jsreport-tags:2.5.0
+2021-04-08T07:39:38.431Z - info: Using extension templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-templates:2.4.0
+2021-04-08T07:39:38.434Z - info: Using extension authorization@local:/home/nissi/Desktop/payslip/node_modules/jsreport-authorization:2.4.0
+2021-04-08T07:39:38.436Z - info: Using extension base@local:/home/nissi/Desktop/payslip/node_modules/jsreport-base:2.0.2
+2021-04-08T07:39:38.438Z - info: Using extension browser-client@local:/home/nissi/Desktop/payslip/node_modules/jsreport-browser-client:2.2.2
+2021-04-08T07:39:38.440Z - info: Using extension child-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-child-templates:1.4.0
+2021-04-08T07:39:38.443Z - info: Using extension chrome-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-chrome-pdf:1.10.0
+2021-04-08T07:39:38.531Z - info: Using extension data@local:/home/nissi/Desktop/payslip/node_modules/jsreport-data:2.4.0
+2021-04-08T07:39:38.532Z - info: Using extension docx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-docx:2.9.0
+2021-04-08T07:39:38.539Z - info: Using extension fs-store@local:/home/nissi/Desktop/payslip/node_modules/jsreport-fs-store:2.9.1
+2021-04-08T07:39:38.666Z - info: Using extension licensing@local:/home/nissi/Desktop/payslip/node_modules/jsreport-licensing:2.2.3
+2021-04-08T07:39:38.670Z - info: Using extension pdf-utils@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pdf-utils:1.10.1
+2021-04-08T07:39:38.775Z - info: Using extension pptx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pptx:0.7.0
+2021-04-08T07:39:38.782Z - info: Using extension reports@local:/home/nissi/Desktop/payslip/node_modules/jsreport-reports:2.5.1
+2021-04-08T07:39:38.787Z - info: Using extension static-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-static-pdf:0.4.0
+2021-04-08T07:39:38.790Z - info: Using extension studio@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio:2.10.1
+2021-04-08T07:39:38.887Z - info: Using extension text@local:/home/nissi/Desktop/payslip/node_modules/jsreport-text:2.0.0
+2021-04-08T07:39:38.888Z - info: Using extension version-control@local:/home/nissi/Desktop/payslip/node_modules/jsreport-version-control:1.6.0
+2021-04-08T07:39:38.964Z - info: Using extension assets@local:/home/nissi/Desktop/payslip/node_modules/jsreport-assets:1.7.0
+2021-04-08T07:39:38.981Z - info: Using extension html-to-xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-html-to-xlsx:2.8.3
+2021-04-08T07:39:39.282Z - info: html-to-xlsx detected chrome as available html engine
+2021-04-08T07:39:39.283Z - info: Using extension scheduling@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scheduling:2.5.0
+2021-04-08T07:39:39.301Z - info: Using extension scripts@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scripts:2.6.0
+2021-04-08T07:39:39.306Z - info: Using extension studio-theme-dark@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio-theme-dark:0.3.0
+2021-04-08T07:39:39.307Z - info: Using extension xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-xlsx:2.5.0
+2021-04-08T07:39:39.437Z - info: Using extension public-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-public-templates:2.2.0
+2021-04-08T07:39:39.442Z - info: Using extension resources@local:/home/nissi/Desktop/payslip/node_modules/jsreport-resources:2.1.0
+2021-04-08T07:39:39.443Z - info: Using extension sample-template@local:/home/nissi/Desktop/payslip/node_modules/jsreport-sample-template:2.6.1
+2021-04-08T07:39:39.446Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-04-08T07:39:39.446Z - info: Using fs provider for template store.
+2021-04-08T07:39:39.471Z - info: fs store is persisting using fs
+2021-04-08T07:39:39.473Z - info: fs store is synchronizing using fs
+2021-04-08T07:39:39.535Z - info: fs store is loading data
+2021-04-08T07:39:39.652Z - info: fs store is initialized successfully
+2021-04-08T07:39:39.681Z - info: Creating default express app.
+2021-04-08T07:39:39.706Z - info: jsreport server successfully started on http port: 3004
+2021-04-08T07:39:39.707Z - info: fs store emits sockets to synchronize underlying changes with studio
+2021-04-08T07:39:39.728Z - info: Verifying license key free
+2021-04-08T07:39:39.730Z - info: Using free license
+2021-04-08T07:39:39.741Z - info: reporter initialized
+2021-04-08T07:39:42.930Z - info: Starting rendering request 1 (user: null)
+2021-04-08T07:39:42.961Z - info: Rendering template { name: paySlip, recipe: chrome-pdf, engine: handlebars, preview: false }
+2021-04-08T07:39:44.808Z - info: Rendering request 1 finished in 1879 ms
+2021-04-08T07:44:13.264Z - info: Initializing jsreport@2.11.0 in development mode using configuration file: jsreport.config.json
+2021-04-08T07:44:13.266Z - info: Searching for available extensions in /home/nissi/Desktop/payslip/
+2021-04-08T07:44:13.411Z - info: Extensions location cache contains up to date information, skipping crawling in /home/nissi/Desktop/payslip/
+2021-04-08T07:44:13.428Z - info: Found 35 extensions
+2021-04-08T07:44:13.654Z - info: Setting http-server strategy for rendering
+2021-04-08T07:44:13.833Z - info: Using extension cli@local:/home/nissi/Desktop/payslip/node_modules/jsreport-cli:2.2.5
+2021-04-08T07:44:13.843Z - info: Using extension debug@local:/home/nissi/Desktop/payslip/node_modules/jsreport-debug:2.1.3
+2021-04-08T07:44:13.849Z - info: Using extension express@local:/home/nissi/Desktop/payslip/node_modules/jsreport-express:2.8.1
+2021-04-08T07:44:13.975Z - info: Using extension freeze@local:/home/nissi/Desktop/payslip/node_modules/jsreport-freeze:2.0.0
+2021-04-08T07:44:13.977Z - info: Using extension handlebars@local:/home/nissi/Desktop/payslip/node_modules/jsreport-handlebars:2.1.0
+2021-04-08T07:44:13.979Z - info: Using extension import-export@local:/home/nissi/Desktop/payslip/node_modules/jsreport-import-export:2.1.1
+2021-04-08T07:44:14.023Z - info: Using extension jsrender@local:/home/nissi/Desktop/payslip/node_modules/jsreport-jsrender:2.1.1
+2021-04-08T07:44:14.024Z - info: Using extension tags@local:/home/nissi/Desktop/payslip/node_modules/jsreport-tags:2.5.0
+2021-04-08T07:44:14.026Z - info: Using extension templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-templates:2.4.0
+2021-04-08T07:44:14.029Z - info: Using extension authorization@local:/home/nissi/Desktop/payslip/node_modules/jsreport-authorization:2.4.0
+2021-04-08T07:44:14.032Z - info: Using extension base@local:/home/nissi/Desktop/payslip/node_modules/jsreport-base:2.0.2
+2021-04-08T07:44:14.034Z - info: Using extension browser-client@local:/home/nissi/Desktop/payslip/node_modules/jsreport-browser-client:2.2.2
+2021-04-08T07:44:14.036Z - info: Using extension child-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-child-templates:1.4.0
+2021-04-08T07:44:14.040Z - info: Using extension chrome-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-chrome-pdf:1.10.0
+2021-04-08T07:44:14.127Z - info: Using extension data@local:/home/nissi/Desktop/payslip/node_modules/jsreport-data:2.4.0
+2021-04-08T07:44:14.128Z - info: Using extension docx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-docx:2.9.0
+2021-04-08T07:44:14.132Z - info: Using extension fs-store@local:/home/nissi/Desktop/payslip/node_modules/jsreport-fs-store:2.9.1
+2021-04-08T07:44:14.234Z - info: Using extension licensing@local:/home/nissi/Desktop/payslip/node_modules/jsreport-licensing:2.2.3
+2021-04-08T07:44:14.237Z - info: Using extension pdf-utils@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pdf-utils:1.10.1
+2021-04-08T07:44:14.314Z - info: Using extension pptx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-pptx:0.7.0
+2021-04-08T07:44:14.319Z - info: Using extension reports@local:/home/nissi/Desktop/payslip/node_modules/jsreport-reports:2.5.1
+2021-04-08T07:44:14.322Z - info: Using extension static-pdf@local:/home/nissi/Desktop/payslip/node_modules/jsreport-static-pdf:0.4.0
+2021-04-08T07:44:14.325Z - info: Using extension studio@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio:2.10.1
+2021-04-08T07:44:14.387Z - info: Using extension text@local:/home/nissi/Desktop/payslip/node_modules/jsreport-text:2.0.0
+2021-04-08T07:44:14.388Z - info: Using extension version-control@local:/home/nissi/Desktop/payslip/node_modules/jsreport-version-control:1.6.0
+2021-04-08T07:44:14.448Z - info: Using extension assets@local:/home/nissi/Desktop/payslip/node_modules/jsreport-assets:1.7.0
+2021-04-08T07:44:14.461Z - info: Using extension html-to-xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-html-to-xlsx:2.8.3
+2021-04-08T07:44:14.694Z - info: html-to-xlsx detected chrome as available html engine
+2021-04-08T07:44:14.695Z - info: Using extension scheduling@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scheduling:2.5.0
+2021-04-08T07:44:14.712Z - info: Using extension scripts@local:/home/nissi/Desktop/payslip/node_modules/jsreport-scripts:2.6.0
+2021-04-08T07:44:14.716Z - info: Using extension studio-theme-dark@local:/home/nissi/Desktop/payslip/node_modules/jsreport-studio-theme-dark:0.3.0
+2021-04-08T07:44:14.717Z - info: Using extension xlsx@local:/home/nissi/Desktop/payslip/node_modules/jsreport-xlsx:2.5.0
+2021-04-08T07:44:14.825Z - info: Using extension public-templates@local:/home/nissi/Desktop/payslip/node_modules/jsreport-public-templates:2.2.0
+2021-04-08T07:44:14.827Z - info: Using extension resources@local:/home/nissi/Desktop/payslip/node_modules/jsreport-resources:2.1.0
+2021-04-08T07:44:14.828Z - info: Using extension sample-template@local:/home/nissi/Desktop/payslip/node_modules/jsreport-sample-template:2.6.1
+2021-04-08T07:44:14.830Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2021-04-08T07:44:14.830Z - info: Using fs provider for template store.
+2021-04-08T07:44:14.838Z - info: fs store is persisting using fs
+2021-04-08T07:44:14.840Z - info: fs store is synchronizing using fs
+2021-04-08T07:44:14.868Z - info: fs store is loading data
+2021-04-08T07:44:14.946Z - info: fs store is initialized successfully
+2021-04-08T07:44:14.967Z - info: Creating default express app.
+2021-04-08T07:44:14.984Z - info: jsreport server successfully started on http port: 3004
+2021-04-08T07:44:14.985Z - info: fs store emits sockets to synchronize underlying changes with studio
+2021-04-08T07:44:15.005Z - info: Verifying license key free
+2021-04-08T07:44:15.007Z - info: Using free license
+2021-04-08T07:44:15.021Z - info: reporter initialized
+2021-04-08T07:44:18.375Z - info: Starting rendering request 1 (user: null)
+2021-04-08T07:44:18.403Z - info: Rendering template { name: paySlip, recipe: chrome-pdf, engine: handlebars, preview: false }
+2021-04-08T07:44:19.663Z - info: Rendering request 1 finished in 1289 ms

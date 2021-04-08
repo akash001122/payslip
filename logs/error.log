@@ -1,0 +1,4 @@
+2021-04-08T06:24:10.759Z - error: Rendering request 1 finished with error in 69 ms
+2021-04-08T06:24:10.760Z - error: Error when processing render request 1 Asset sampleReports.css not found in the store and also not on the disk: Unable to find or read file /home/nissi/Desktop/payslip/sampleReports.css. ENOENT: no such file or directory, open '/home/nissi/Desktop/payslip/sampleReports.css' Error: Asset sampleReports.css not found in the store and also not on the disk: Unable to find or read file /home/nissi/Desktop/payslip/sampleReports.css. ENOENT: no such file or directory, open '/home/nissi/Desktop/payslip/sampleReports.css'
+    at readAsset (/home/nissi/Desktop/payslip/node_modules/jsreport-assets/lib/assets.js:232:15)
+2021-04-08T06:24:10.761Z - error: Error during processing request at http://localhost:3004/api/report/paySlip

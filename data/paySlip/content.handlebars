@@ -1,0 +1,82 @@
+<style>
+    {#asset payslip.css @encoding=utf8}
+</style>
+<div>
+  <div class="flex-container">
+    <div><img class="o-logo-img-wrapper" src='{#asset nissi_logo.png @encoding=dataURI}'/ width="50%"></div>
+    <div><span class="e-font-big">Nissi Agency LLP<br/></span>4/1, Divya heights, Patel Ram Reddy Rd, K.R.Colony, Domlur I Stage, Domlur, Bengaluru, Karnataka 560071</div>
+  </div> 
+   <h3 class="e-text-center"></h3>
+  <table>
+    <tr>
+      <th colspan="6">Employee Details</th>
+    </tr>
+    <tr>
+      <th>Name</th>
+      <td>{{name}} </td>
+      <th>Bank Account Number </th>
+      <td> {{bank_details.account_number}} </td>
+      <th>Branch Code</th>
+      <td>{{bank_details.bank_ifsc}}</td>
+    </tr>
+    <tr>
+      <th>Employee ID</th>
+      <td>{{employee_id}}</td>
+      <th>Bank Name</th>
+      <td>{{bank_details.bank_name}}</td>
+      <th>Department </th>
+      <td>{{department}}</td>
+    </tr>
+    <tr>
+      <th>Employee Pan Number</th>
+      <td>{{pan_number}}</td>
+      <th>Employee Email</th>
+      <td>{{email}}</td>
+      <th>DOJ</th>
+      <td>{{date_of_joining}}</td>
+    </tr>
+  </table >
+  <div class="u-space-creator"></div>
+  <table>
+    <tr>
+      <th colspan="6">Salary Details</th>
+      
+    </tr>
+    {{#each pay_data}}
+    <tr>
+      <td>{{this.name}}</td>
+      <td>{{this.value}}</td>
+    </tr>
+    {{/each}}
+  </table>
+  <table>
+    <tr>
+      <th colspan="6">Deduction Details</th>
+      
+    </tr>
+    {{#each deduction_data}}
+    <tr>
+      <td>{{this.name}}</td>
+      <td>{{this.value}}</td>
+    </tr>
+    {{/each}}
+  </table>
+  <table>
+    <tr>
+      <td colspan="5">Gross Pay</td>
+      <td>{{gross_pay}}</td>
+    </tr>
+    <tr>
+      <td colspan="5">Deductions</td>
+      <td>{{total_deductions}}</td>
+    </tr>
+    <tr>
+      <td colspan="5">Net Pay</td>
+      <td>{{net_pay}}</td>
+    </tr>
+  </table>
+  <div class="e-text-center e-text-bold">
+    <p>HR's Signature</p>				
+  </div>
+</div>
+     

@@ -1,0 +1,43 @@
+body{
+  font-family: serif;
+  font-size: 16px;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: #c2d69b;
+}
+.flex-container > div {
+  margin: 10px;
+  text-align: center;
+  width: 400px;
+}
+.e-font-big{
+font-size: 30px;
+  font-weight: bold;
+}
+.o-logo-img-wrapper{
+  height: 80px;
+  position: relative;
+  top: 0;
+}
+.e-text-center{
+  text-align: center;
+}
+​
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    min-width: 99.9%;
+    max-width: 100%;
+    table-layout: fixed;
+    padding: 1mm;
+    font-size:13px;
+}
+.e-text-bold{
+  font-weight: bold;
+}
+.u-space-creator{
+  margin-top: 20px;
+}

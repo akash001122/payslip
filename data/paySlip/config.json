@@ -1,0 +1,19 @@
+{
+    "shortid": "oatKd1f2L0",
+    "name": "paySlip",
+    "recipe": "chrome-pdf",
+    "engine": "handlebars",
+    "chrome": {
+        "printBackground": true,
+        "landscape": true,
+        "format": "a5"
+    },
+    "creationDate": {
+        "$$date": 1617863048922
+    },
+    "modificationDate": {
+        "$$date": 1617864406133
+    },
+    "_id": "68mbvqdIt9BcgJR2",
+    "$entitySet": "templates"
+}

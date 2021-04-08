@@ -3,7 +3,7 @@ const Salary = require('../schemas/salary_structure');
 const Boom = require('@hapi/boom');
 
 module.exports = {
-    name: get_pay_structure_by_slab,
+    name: 'get_pay_structure_by_slab',
     method: async (slab) => {
         try{
             const pay_structure = await Salary.find({slab:slab, visibility: true});
