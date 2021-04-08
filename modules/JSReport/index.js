@@ -2,28 +2,28 @@
 
 const Queue = require('bull');
 const fs = require('fs');
-const client = require("jsreport-client")("https://jsreport.sealtabs.com/");
+const client = require('jsreport-client')('https://jsreport.sealtabs.com/');
 
-let host = '127.0.0.1';
-let port = '6379';
+const host = '127.0.0.1';
+const port = '6379';
 
-const generate_report = new Queue('generatereport', { redis: { host, port } });
+const generate_report = new Queue('generatereport', {redis: {host, port}});
 
 (async () => {
   try {
     await generate_report.isReady();
     generate_report.process(async (job) => {
       try {
-            const res = await client.render({
-                template: {  
-                    "shortid":"BJlwWjEyrO"
-                },
-                data: job.data
-            })
-        
-          const bodyBuffer = await res.body()
-          fs.writeFileSync(`${job.data.name}report.pdf`, bodyBuffer);
-        return ;
+        const res = await client.render({
+          template: {
+            shortid: 'BJlwWjEyrO',
+          },
+          data: job.data,
+        });
+
+        const bodyBuffer = await res.body();
+        fs.writeFileSync(`${job.data.name}report.pdf`, bodyBuffer);
+        return;
       } catch (e) {
         return e;
       }
@@ -40,7 +40,7 @@ const generate_report = new Queue('generatereport', { redis: { host, port } });
 })();
 
 const report = {
-  generate_report
+  generate_report,
 };
 
 module.exports = report;

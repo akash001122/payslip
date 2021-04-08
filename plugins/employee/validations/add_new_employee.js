@@ -13,10 +13,12 @@ module.exports = {
     ctc: Joi.number().integer().required(),
     slab: Joi.string().required(),
     pan_number: Joi.string().required(),
-    bank_details: Joi.array().items(Joi.object({
+    bank_details: Joi.array().items(
+      Joi.object({
         bank_name: Joi.string().required(),
         bank_ifsc: Joi.string().required(),
         account_number: Joi.string().required(),
-    }))
-  })
+      }),
+    ),
+  }),
 };

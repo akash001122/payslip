@@ -3,7 +3,7 @@
 const Joi = require('joi');
 
 module.exports = {
-    query: Joi.object({
-        employeeId: Joi.array().items(Joi.string()).single(),
-    })
+  query: Joi.object({
+    employeeId: Joi.array().items(Joi.string()).single(),
+  }),
 };

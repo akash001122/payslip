@@ -7,7 +7,7 @@ module.exports = {
     tags: ['api'],
     description: 'Gets All Users Details',
     auth: 'jwt',
-    plugins: { hacli: { permissions: ['admin'] } },
+    plugins: {hacli: {permissions: ['admin']}},
   },
   handler: require('../handlers/get_all_users'),
 };

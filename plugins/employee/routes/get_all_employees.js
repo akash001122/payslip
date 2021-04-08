@@ -13,6 +13,6 @@ module.exports = {
         roles: ['hr'],
       },
     },
-    handler: require('../handlers/get_all_employees')
+    handler: require('../handlers/get_all_employees'),
   },
 };

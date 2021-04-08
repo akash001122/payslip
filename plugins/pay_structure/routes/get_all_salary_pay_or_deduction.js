@@ -7,7 +7,7 @@ module.exports = {
     tags: ['api'],
     description: 'Fetches all salary pay and deductions',
     auth: 'jwt',
-    plugins: { hacli: { permissions: ['hr'] } },
+    plugins: {hacli: {permissions: ['hr']}},
   },
   handler: require('../handlers/get_all_salary_pay_or_deduction'),
 };

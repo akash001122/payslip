@@ -1,28 +1,28 @@
-const moment = require('moment')
-const rowOffset = 6
+const moment = require('moment');
+const rowOffset = 6;
 
-function nowStr () {
-    return moment().format('YYYY-MM-DD')
+function nowStr() {
+  return moment().format('YYYY-MM-DD');
 }
 
-function generateEmptyCell (repeat, className) {
-    const cells = []
+function generateEmptyCell(repeat, className) {
+  const cells = [];
 
-    for (let i = 0; i < repeat; i++) {
-        cells.push(`<td class="empty-cell ${className || ''}"></td>`)
-    }
+  for (let i = 0; i < repeat; i++) {
+    cells.push(`<td class="empty-cell ${className || ''}"></td>`);
+  }
 
-    return new Handlebars.SafeString(cells.join(''))
+  return new Handlebars.SafeString(cells.join(''));
 }
 
-function oddClassName (index) {
-    return (index + 1) % 2 !== 0 ? 'odd' : ''
+function oddClassName(index) {
+  return (index + 1) % 2 !== 0 ? 'odd' : '';
 }
 
-function sum (a, b) {
-    return a + b
+function sum(a, b) {
+  return a + b;
 }
 
-function getDetailRowIndex (index) {
-    return (index + 1) + rowOffset
+function getDetailRowIndex(index) {
+  return (index + 1) + rowOffset;
 }

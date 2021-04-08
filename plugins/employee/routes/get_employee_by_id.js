@@ -14,6 +14,6 @@ module.exports = {
       },
     },
     validate: require('../validations/get_employee_by_id'),
-    handler: require('../handlers/get_employee_by_id')
+    handler: require('../handlers/get_employee_by_id'),
   },
 };
