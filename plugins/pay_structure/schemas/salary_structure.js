@@ -9,9 +9,14 @@ const schema = new Schema({
   name: {type: String, required: false},
   slab: {type: String, required: true},
   type: {type: String, enum: pay_or_deductions, required: true},
+  pf: {type: Boolean, required: true},
+  basic_pay: {type: Boolean, required: true},
   percentage_or_amount: {type: String, enum: percentage_or_amount, required: true},
   value: {type: Number, required: false},
   visibility: {type: Boolean, required: false, default: true},
 });
-
+schema.index({
+  slab: 1,
+  visibility: 1,
+});
 module.exports = mongoose.model('salary_structure', schema);

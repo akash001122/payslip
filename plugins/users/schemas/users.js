@@ -14,5 +14,9 @@ const schema = new Schema({
   role: {type: String, enum: permissions, required: true},
   visibility: {type: Boolean, required: false, default: true},
 });
+schema.index({
+  email: 1,
+  visibility: 1,
+});
 
 module.exports = mongoose.model('users', schema);

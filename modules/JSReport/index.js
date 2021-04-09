@@ -29,8 +29,8 @@ const generate_report = new Queue('generatereport', {redis: {host, port}});
       }
     });
 
-    generate_report.on('completed', (job, result) => {
-      console.log('completed ', result);
+    generate_report.on('completed', () => {
+      console.log('completed ');
     });
 
     generate_report.on('error', (error) => console.error('Queue Error', error));

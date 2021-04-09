@@ -16,35 +16,49 @@ module.exports = async (request, h) => {
     const payDetails = await request.server.methods.get_pay_structure_by_slab(employeeDetails.slab);
     const pay_data = [];
     const deduction_data = [];
-    let pay_count = 0;
-    let deduction_count = 0;
     for (const item in payDetails) {
       if (payDetails[item].percentage_or_amount === 'percentage' && payDetails[item].type === 'pay') {
-        pay_data[pay_count] = {
+        pay_data.push({
           name: payDetails[item].name,
           value: (employeeDetails.ctc * payDetails[item].value * days) / (12 * (22 - lop) * 100),
-        };
+        });
         pay_count++;
       } else if (payDetails[item].percentage_or_amount === 'amount' && payDetails[item].type === 'pay') {
-        pay_data[pay_count] = {
+        pay_data({
           name: payDetails[item].name,
           value: payDetails[item].value,
-        };
+        });
         pay_count++;
-      } else if (payDetails[item].percentage_or_amount === 'percentage' && payDetails[item].type === 'deduction') {
-        deduction_data[deduction_count] = {
+      } else if (
+        payDetails[item].percentage_or_amount === 'percentage' &&
+        payDetails[item].type === 'deduction' &&
+        payDetails[item].pf !== true
+      ) {
+        deduction_data.push({
           name: payDetails[item].name,
           value: (employeeDetails.ctc * payDetails[item].value * days) / (12 * (22 - lop) * 100),
-        };
+        });
         deduction_count++;
-      } else if (payDetails[item].percentage_or_amount === 'amount' && payDetails[item].type === 'deduction') {
-        deduction_data[deduction_count] = {
+      } else if (
+        payDetails[item].percentage_or_amount === 'amount' &&
+        payDetails[item].type === 'deduction' &&
+        payDetails[item].pf !== true
+      ) {
+        deduction_data.push({
           name: payDetails[item].name,
           value: payDetails[item].value,
-        };
+        });
         deduction_count++;
       }
     }
+    const pfStructure = payDetails.filter((x) => x.pf === true);
+    const basicStructure = payDetails.filter((x) => x.basic_pay === true);
+    deduction_data.push({
+      name: pfStructure[0].name,
+      value:
+        (((employeeDetails.ctc * basicStructure[0].value * days) / (12 * (22 - lop) * 100)) * pfStructure[0].value) /
+        100,
+    });
 
     const gross_pay = pay_data.reduce((x, y) => x + y.value, 0);
     const total_deductions = deduction_data.reduce((x, y) => x + y.value, 0);

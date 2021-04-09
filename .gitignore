@@ -2,3 +2,5 @@ node_modules
 dev.sh
 package-lock
 yarn
+data
+logs
