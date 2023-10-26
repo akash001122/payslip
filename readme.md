@@ -1,7 +1,7 @@
-##General Info
+## General Info
 This project lets an organisation to generate payslip of an employee.
 
-##Technologies
+## Technologies
 
 Node version 14.15.1
 Hapi version 20.0.0
@@ -9,7 +9,7 @@ MongoDB
 Mongoose
 Redis
 
-##Setup
+## Setup
 Open terminal and run the following commands:
 
 git clone https://gitlab.com/akash72/payslip && cd payslip

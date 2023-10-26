@@ -4,9 +4,7 @@
   "description": "Payslip Generation",
   "main": "index.js",
   "scripts": {
-    "dev": "node ./server/index.js",
-    "lint": "prettier . --write",
-    "prepare": "husky install"
+    "dev": "node ./server/index.js"
   },
   "license": "MIT",
   "dependencies": {
@@ -39,16 +37,5 @@
     "lint-staged": ">=10",
     "nodemon": "^2.0.7",
     "prettier": "2.2.1"
-  },
-  "lint-staged": {
-    "**/*.js": [
-      "prettier --write",
-      "eslint --fix"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   }
 }

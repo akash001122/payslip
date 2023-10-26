@@ -22,13 +22,11 @@ module.exports = async (request, h) => {
           name: payDetails[item].name,
           value: (employeeDetails.ctc * payDetails[item].value * days) / (12 * (22 - lop) * 100),
         });
-        pay_count++;
       } else if (payDetails[item].percentage_or_amount === 'amount' && payDetails[item].type === 'pay') {
         pay_data({
           name: payDetails[item].name,
           value: payDetails[item].value,
         });
-        pay_count++;
       } else if (
         payDetails[item].percentage_or_amount === 'percentage' &&
         payDetails[item].type === 'deduction' &&
@@ -38,7 +36,6 @@ module.exports = async (request, h) => {
           name: payDetails[item].name,
           value: (employeeDetails.ctc * payDetails[item].value * days) / (12 * (22 - lop) * 100),
         });
-        deduction_count++;
       } else if (
         payDetails[item].percentage_or_amount === 'amount' &&
         payDetails[item].type === 'deduction' &&
@@ -48,7 +45,6 @@ module.exports = async (request, h) => {
           name: payDetails[item].name,
           value: payDetails[item].value,
         });
-        deduction_count++;
       }
     }
     const pfStructure = payDetails.filter((x) => x.pf === true);
